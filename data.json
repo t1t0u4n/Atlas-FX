@@ -1,0 +1,1096 @@
+{
+ "updated": "2026-11-21T11:30",
+ "updatedLabel": "Sam. 21/11 · données jusqu'au ven. 20/11 (clôture)",
+ "account": {
+  "size": 25000,
+  "dailyLoss": 1250,
+  "dailyGainCap": 800
+ },
+ "market": {
+  "src": "Clôture du ven. 20/11 · VIX : Cboe · Peur & Avidité : CNN",
+  "vix": {
+   "v": 35.89,
+   "p": 28.44,
+   "hist": [
+    {
+     "d": "18/11",
+     "v": 24.52,
+     "fg": null
+    },
+    {
+     "d": "19/11",
+     "v": 28.44,
+     "fg": null
+    },
+    {
+     "d": "20/11",
+     "v": 35.89,
+     "fg": 10
+    }
+   ]
+  },
+  "fg": {
+   "v": 10,
+   "p": 37
+  },
+  "context": "Vente massive des valeurs liées à l'IA après l'introduction en Bourse d'Anthropic : le VIX touche 40 en séance, le yen et le franc sont les devises les plus fortes, l'AUD et le NZD les plus faibles."
+ },
+ "morning": [
+  {
+   "d": "20/11/26",
+   "tone": "down",
+   "ccy": {
+    "USD": [
+     "haussier",
+     "dollar en pause, rendements en baisse et marché moins agressif sur la Fed après décembre"
+    ],
+    "EUR": [
+     "neutre/baissier",
+     "EURUSD sous 1,10, risque politique français et positions vendeuses record"
+    ],
+    "GBP": [
+     "neutre/baissier",
+     "ventes au détail solides, mais GBPUSD près de son plus bas annuel"
+    ],
+    "JPY": [
+     "neutre/haussier",
+     "devise la plus forte, valeur refuge malgré un CPI sous les attentes"
+    ],
+    "CHF": [
+     "neutre/baissier",
+     "soutenu par l'aversion au risque, BNS toujours à 0 %"
+    ],
+    "CAD": [
+     "baissier",
+     "ventes au détail portées par l'essence, octobre attendu en baisse de 1,5 %"
+    ],
+    "AUD": [
+     "baissier",
+     "aversion au risque et RBA vue au sommet après l'emploi"
+    ],
+    "NZD": [
+     "baissier",
+     "rebond effacé, NZDUSD vers 0,549"
+    ]
+   },
+   "pos": "Short NZDJPY : d'après NZDUSD (0,549) et USDJPY (158,8), la paire serait passée vers 87,2, sous le TP de 87,300. Le TP a très probablement été touché (environ +225 $, près de 2,9 R) : à vérifier sur MT5.",
+   "next": "Lun. 23 Bourse de Tokyo fermée ; PMI flash et PCE américain dans la semaine ; mer. 25 réunion BCE sur les réserves et CPI australien ; jeu. 26 Thanksgiving ; ven. 27 CPI de Tokyo et résultats des élections néo-zélandaises.",
+   "key": "La chute des actions liées à l'IA profite surtout au yen et au franc, alors que le dollar marque une pause avec la baisse des rendements."
+  },
+  {
+   "d": "19/11/26",
+   "tone": "flat",
+   "ccy": {
+    "USD": [
+     "haussier",
+     "minutes du FOMC fermes, mais dollar freiné par le retour du goût du risque et des données plus faibles"
+    ],
+    "EUR": [
+     "neutre/baissier",
+     "BCE ferme, EURUSD brièvement au-dessus de 1,10"
+    ],
+    "GBP": [
+     "neutre/baissier",
+     "CBI solide, mais GBPUSD près de son plus bas annuel"
+    ],
+    "JPY": [
+     "neutre/baissier",
+     "Ueda confirme les hausses, mais USDJPY au contact de 160"
+    ],
+    "CHF": [
+     "baissier",
+     "écart de taux toujours défavorable"
+    ],
+    "CAD": [
+     "baissier",
+     "pas de donnée, pétrole en légère hausse"
+    ],
+    "AUD": [
+     "baissier",
+     "chômage au plus haut depuis cinq ans, AUDUSD au plus bas depuis janvier"
+    ],
+    "NZD": [
+     "baissier",
+     "devise la plus forte du jour, simple rebond porté par le risque"
+    ]
+   },
+   "pos": "Short NZDJPY : TP non atteint le 18 (plus bas vers 87,31). Rebond vers 88,2, gain latent d'environ 85 $ (≈ 1 R).",
+   "next": "Ven. 20 CPI japonais ; mer. 25 BCE (réserves) et CPI australien ; ven. 27 élections NZ.",
+   "key": "Les minutes confirment une Fed presque unanime pour monter, mais l'introduction en Bourse d'Anthropic et le sommet de Shenzhen ramènent le goût du risque."
+  },
+  {
+   "d": "18/11/26",
+   "tone": "down",
+   "ccy": {
+    "USD": [
+     "haussier",
+     "Waller relance les 50 points, indice dollar au plus haut depuis avril 2025"
+    ],
+    "EUR": [
+     "neutre/baissier",
+     "sous-jacent révisé en hausse, mais EURUSD sous 1,10"
+    ],
+    "GBP": [
+     "neutre/baissier",
+     "CPI sous les attentes, la hausse de décembre devient moins certaine"
+    ],
+    "JPY": [
+     "neutre/baissier",
+     "exportations record, USDJPY bloqué sous 160"
+    ],
+    "CHF": [
+     "baissier",
+     "USDCHF au plus haut depuis 18 mois"
+    ],
+    "CAD": [
+     "baissier",
+     "pétrole en baisse, USDCAD au plus haut depuis 19 mois"
+    ],
+    "AUD": [
+     "baissier",
+     "salaires solides, sans effet face au dollar"
+    ],
+    "NZD": [
+     "baissier",
+     "NZDUSD au plus bas depuis avril 2025"
+    ]
+   },
+   "pos": "Short NZDJPY : plus bas vers 87,31-87,34, quelques pips au-dessus du TP. Gain latent d'environ 225 $ (≈ 2,8 R).",
+   "next": "Minutes du FOMC le soir ; jeu. 19 IPO d'Anthropic et sommet de Shenzhen.",
+   "key": "Waller pousse le dollar à un nouveau plus haut alors que le CPI britannique affaiblit la livre."
+  },
+  {
+   "d": "17/11/26",
+   "tone": "down",
+   "ccy": {
+    "USD": [
+     "haussier",
+     "indice dollar au plus haut depuis 19 mois, ventes au détail solides et Musalem très ferme"
+    ],
+    "EUR": [
+     "neutre/baissier",
+     "ZEW solide, mais EURUSD sous 1,10, au plus bas depuis mai 2025"
+    ],
+    "GBP": [
+     "neutre",
+     "chômage en baisse, mais salaires et offres d'emploi en recul"
+    ],
+    "JPY": [
+     "neutre/baissier",
+     "USDJPY bloqué sous 160 par la crainte d'intervention"
+    ],
+    "CHF": [
+     "baissier",
+     "USDCHF au plus haut depuis 18 mois"
+    ],
+    "CAD": [
+     "neutre/baissier",
+     "pas de donnée, USDCAD vers 1,43"
+    ],
+    "AUD": [
+     "baissier",
+     "minutes de la RBA fermes, sans effet face au dollar"
+    ],
+    "NZD": [
+     "baissier",
+     "anticipations d'inflation stables, NZDUSD vers 0,55"
+    ]
+   },
+   "pos": "Short NZDJPY : paire vers 87,6, gain latent d'environ 180 $ (≈ 2 R).",
+   "next": "Résultats de Nvidia le soir ; mer. 18 CPI britannique.",
+   "key": "Le dollar touche un plus haut de 19 mois grâce aux paris sur plusieurs hausses de la Fed."
+  },
+  {
+   "d": "16/11/26",
+   "tone": "down",
+   "ccy": {
+    "USD": [
+     "haussier",
+     "indice dollar vers 103,5 malgré l'Empire State, Warsh muet sur les taux"
+    ],
+    "EUR": [
+     "neutre/baissier",
+     "production industrielle en chute, EURUSD au contact de 1,10"
+    ],
+    "GBP": [
+     "neutre",
+     "BoE ferme, mais GBPUSD bloqué vers 1,32"
+    ],
+    "JPY": [
+     "neutre/baissier",
+     "PIB du T3 négatif, mais intervention crainte sous 160"
+    ],
+    "CHF": [
+     "baissier",
+     "devise de financement face à une Fed qui resserre"
+    ],
+    "CAD": [
+     "baissier",
+     "CPI sous les attentes et sous-jacent vers 2 %, USDCAD vers 1,43"
+    ],
+    "AUD": [
+     "baissier",
+     "chiffres chinois décevants, plus bas depuis le début d'année"
+    ],
+    "NZD": [
+     "baissier",
+     "nouveau plus bas depuis avril 2025"
+    ]
+   },
+   "pos": "Short NZDJPY : paire vers 88,0, gain latent d'environ 110 $ (≈ 1,4 R).",
+   "next": "Minutes RBA et Bullock ; mar. 17 emploi britannique et Nvidia.",
+   "key": "Le CPI canadien plus doux éloigne une nouvelle hausse de la BoC, et les chiffres chinois envoient l'AUD et le NZD à de nouveaux plus bas."
+  }
+ ],
+ "macro": [
+  {
+   "c": "USD",
+   "flag": "🇺🇸",
+   "cb": "Fed",
+   "rate": "3,75-4,00 %",
+   "next": "09/12",
+   "proba": "Hausse de 25 pb à 99,5 % (20/11)",
+   "cpi": "3,7 % (sept.)",
+   "core": "2,6 %",
+   "unemp": "4,1 %",
+   "pmiM": "55,5",
+   "pmiS": "54,5",
+   "gdp": "+3,4 % ann. (T3)",
+   "cot": {
+    "side": "acheteur",
+    "pct": 63.7,
+    "net": 14190
+   },
+   "etat": "Hawkish",
+   "note": "Acheteur : IPC d'octobre plus chaud que prévu, hausse de la Fed le 09/12 quasi certaine, emploi solide, COT acheteur (63,7 %).",
+   "horizon": null,
+   "upd": "15/11",
+   "url": "https://app.notion.com/p/451c6fc6303d83c592af01ddec64d4c0"
+  },
+  {
+   "c": "EUR",
+   "flag": "🇪🇺",
+   "cb": "BCE",
+   "rate": "2,50 % (dépôt)",
+   "next": "17/12",
+   "proba": "Hausse à 2,75 % ≈ 80 % (13/11)",
+   "cpi": "4,0 % (oct.)",
+   "core": "2,6 %",
+   "unemp": "6,5 %",
+   "pmiM": "52,7",
+   "pmiS": "51,4",
+   "gdp": "+1,3 % a/a (T3)",
+   "cot": {
+    "side": "vendeur",
+    "pct": 62.8,
+    "net": -157791
+   },
+   "etat": "N-Dovish",
+   "note": "Neutre à vendeur : BCE attendue en hausse en décembre (≈ 80 %), mais emploi à l'arrêt, dollar dominant et COT vendeur (62,8 %).",
+   "horizon": null,
+   "upd": "15/11",
+   "url": "https://app.notion.com/p/318c6fc6303d837face68134c7e49961"
+  },
+  {
+   "c": "GBP",
+   "flag": "🇬🇧",
+   "cb": "BoE",
+   "rate": "4,00 %",
+   "next": "17/12",
+   "proba": "Hausse ≈ 80 % après le CPI (18/11)",
+   "cpi": "3,6 % (oct.)",
+   "core": "2,8 %",
+   "unemp": "4,6 %",
+   "pmiM": "52,8",
+   "pmiS": "52,8",
+   "gdp": "+0,7 % t/t (T3)",
+   "cot": {
+    "side": "vendeur",
+    "pct": 66.0,
+    "net": -59821
+   },
+   "etat": "N-Hawkish",
+   "note": "Neutre à biais haussier : PIB T3 +0,7 %, hausse BoE pricée le 17/12, vendeurs COT qui se couvrent, mais consommation faible et USD fort.",
+   "horizon": [
+    "Neutre / haussier",
+    "Neutre",
+    "Neutre"
+   ],
+   "upd": "15/11",
+   "url": "https://app.notion.com/p/a27c6fc6303d824d8ce881caaf2d5908"
+  },
+  {
+   "c": "JPY",
+   "flag": "🇯🇵",
+   "cb": "BoJ",
+   "rate": "1,25 %",
+   "next": "18/12",
+   "proba": "Hausse à 1,50 % ≈ 72 % (20/11)",
+   "cpi": "2,3 % (oct.)",
+   "core": "2,2 %",
+   "unemp": "2,4 %",
+   "pmiM": "53,3",
+   "pmiS": "51,7",
+   "gdp": "0,0 % t/t (T3)",
+   "cot": {
+    "side": "acheteur",
+    "pct": 64.5,
+    "net": 102321
+   },
+   "etat": "Neutre",
+   "note": "Neutre : BoJ vers une hausse le 18/12 et COT acheteur (64,5 %), mais écart de taux avec les US et PIB du T3 nul ; risque d'intervention au-dessus de 160.",
+   "horizon": null,
+   "upd": "15/11",
+   "url": "https://app.notion.com/p/9e6c6fc6303d83ae888a01072645edf2"
+  },
+  {
+   "c": "CHF",
+   "flag": "🇨🇭",
+   "cb": "BNS",
+   "rate": "0,00 %",
+   "next": "10/12",
+   "proba": "Maintien 83,7 % / hausse 16,3 % (13/11)",
+   "cpi": "1,5 % (oct.)",
+   "core": "0,5 %",
+   "unemp": "3,0 %",
+   "pmiM": "56,7",
+   "pmiS": "59,9",
+   "gdp": "+2,3 % a/a (T2)",
+   "cot": {
+    "side": "vendeur",
+    "pct": 61.0,
+    "net": -16589
+   },
+   "etat": "N-Dovish",
+   "note": "Neutre à vendeur : BNS à 0 % (hausse de décembre à 16 %), le franc sert de devise de financement ; COT vendeur (61 %).",
+   "horizon": null,
+   "upd": "15/11",
+   "url": "https://app.notion.com/p/952c6fc6303d83f8871b814abcda821a"
+  },
+  {
+   "c": "CAD",
+   "flag": "🇨🇦",
+   "cb": "BoC",
+   "rate": "2,50 %",
+   "next": "09/12",
+   "proba": "Hausse 45-63 % avant le CPI (13/11), en baisse depuis",
+   "cpi": "3,1 % (oct.)",
+   "core": "1,8 % (trim)",
+   "unemp": "6,7 %",
+   "pmiM": "49,6",
+   "pmiS": "48,1",
+   "gdp": "+0,8 % t/t (T2)",
+   "cot": {
+    "side": "vendeur",
+    "pct": 58.7,
+    "net": -41775
+   },
+   "etat": "N-Dovish",
+   "note": "Neutre à vendeur : BoC plus ferme, mais emploi faible et écart de taux avec les US ; COT vendeur (58,7 %). CPI d'octobre sous les attentes.",
+   "horizon": null,
+   "upd": "15/11",
+   "url": "https://app.notion.com/p/525c6fc6303d82339a1c81b33754912e"
+  },
+  {
+   "c": "AUD",
+   "flag": "🇦🇺",
+   "cb": "RBA",
+   "rate": "4,85 %",
+   "next": "08/12",
+   "proba": "Maintien 96 % (15/11)",
+   "cpi": "4,3 % (sept.)",
+   "core": "3,6 % (trim)",
+   "unemp": "4,9 %",
+   "pmiM": "49,6",
+   "pmiS": "48,5",
+   "gdp": "+0,4 % t/t (T2)",
+   "cot": {
+    "side": "vendeur",
+    "pct": 69.5,
+    "net": -129457
+   },
+   "etat": "N-Dovish",
+   "note": "Neutre : RBA à 4,85 % mais pause pricée à 96 % en décembre, confiance en chute, COT très vendeur (69,5 %).",
+   "horizon": [
+    "Neutre / haussier",
+    "Neutre",
+    "Neutre / baissier"
+   ],
+   "upd": "15/11",
+   "url": "https://app.notion.com/p/3c3c6fc6303d82eba2ff81721590f27b"
+  },
+  {
+   "c": "NZD",
+   "flag": "🇳🇿",
+   "cb": "RBNZ",
+   "rate": "2,75 %",
+   "next": "09/12",
+   "proba": "Hausse ≈ 50-60 % (06/11)",
+   "cpi": "3,7 % (T3)",
+   "core": "—",
+   "unemp": "5,7 %",
+   "pmiM": "54,9",
+   "pmiS": "50,9",
+   "gdp": "+2,6 % a/a (T2)",
+   "cot": {
+    "side": "vendeur",
+    "pct": 81.0,
+    "net": -60015
+   },
+   "etat": "N-Dovish",
+   "note": "Vendeur : chômage 5,7 %, hausse RBNZ de décembre à pile ou face face à une Fed qui monte, COT 81 % vendeur (risque de rachat).",
+   "horizon": null,
+   "upd": "15/11",
+   "url": "https://app.notion.com/p/fdcc6fc6303d836fa482814444fd3270"
+  }
+ ],
+ "cotDate": "03/11",
+ "trades": [
+  {
+   "a": "NZDJPY",
+   "s": "SHORT",
+   "e": "En cours",
+   "q": "⭐⭐⭐",
+   "d": "2026-11-12",
+   "g": null,
+   "r": "N/A",
+   "risk": 0.003,
+   "rr": 2.9
+  },
+  {
+   "a": "NZDUSD",
+   "s": "SHORT",
+   "e": "Terminé",
+   "q": "⭐⭐⭐⭐",
+   "d": "2026-11-09",
+   "g": 0,
+   "r": "NO FILL",
+   "risk": null,
+   "rr": null
+  },
+  {
+   "a": "AUDUSD",
+   "s": "SHORT",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-10-29",
+   "g": 258.13,
+   "r": "TP",
+   "risk": 0.003,
+   "rr": 3.5
+  },
+  {
+   "a": "GBPAUD",
+   "s": "LONG",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-10-26",
+   "g": -226.75,
+   "r": "SL",
+   "risk": 0.009,
+   "rr": 3.3
+  },
+  {
+   "a": "GBPAUD",
+   "s": "LONG",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-10-23",
+   "g": -190.06,
+   "r": "SL",
+   "risk": 0.0076,
+   "rr": 3.45
+  },
+  {
+   "a": "USDCHF",
+   "s": "LONG",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-10-15",
+   "g": -224.24,
+   "r": "SL",
+   "risk": 0.009,
+   "rr": 3.9
+  },
+  {
+   "a": "XAUUSD",
+   "s": "SHORT",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-10-15",
+   "g": -244.9,
+   "r": "SL",
+   "risk": 0.01,
+   "rr": 3.3
+  },
+  {
+   "a": "XAUUSD",
+   "s": "SHORT",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-10-13",
+   "g": 145.7,
+   "r": "BE",
+   "risk": 0.01,
+   "rr": 3.2
+  },
+  {
+   "a": "AUDUSD",
+   "s": "SHORT",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-10-06",
+   "g": 71.93,
+   "r": "BE",
+   "risk": 0.009,
+   "rr": 3.2
+  },
+  {
+   "a": "GBPUSD",
+   "s": "SHORT",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-10-06",
+   "g": 66.79,
+   "r": "BE",
+   "risk": 0.006,
+   "rr": 2.4
+  },
+  {
+   "a": "GBPCAD",
+   "s": "LONG",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-10-01",
+   "g": -126.75,
+   "r": "SL",
+   "risk": 0.005,
+   "rr": 2.8
+  },
+  {
+   "a": "USDCHF",
+   "s": "LONG",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-10-01",
+   "g": -186,
+   "r": "SL",
+   "risk": 0.008,
+   "rr": 2
+  },
+  {
+   "a": "USDCHF",
+   "s": "LONG",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-10-01",
+   "g": 26.35,
+   "r": "BE",
+   "risk": 0.003,
+   "rr": 5.9
+  },
+  {
+   "a": "EURCHF",
+   "s": "LONG",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-09-25",
+   "g": 2.75,
+   "r": "BE",
+   "risk": 0.003,
+   "rr": 5
+  },
+  {
+   "a": "EURCHF",
+   "s": "LONG",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-09-23",
+   "g": 355.3,
+   "r": "BE",
+   "risk": 0.01,
+   "rr": 3.2
+  },
+  {
+   "a": "EURCHF",
+   "s": "LONG",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-09-23",
+   "g": 793.95,
+   "r": "TP",
+   "risk": 0.01,
+   "rr": 3.2
+  }
+ ],
+ "open": [
+  {
+   "pair": "NZDJPY",
+   "side": "SHORT",
+   "lot": "0,25",
+   "entry": "88,758",
+   "sl": "89,260",
+   "tp": "87,300",
+   "status": "TP probablement touché le 20/11 · à confirmer"
+  }
+ ],
+ "alerts": [
+  {
+   "lvl": "high",
+   "t": "Risk-off extrême",
+   "x": "VIX à 35,89 (+26 %) et Peur & Avidité à 10. Ce climat favorise le yen et le franc et pénalise l'AUD, le NZD et le CAD. Une seule journée de rebond peut tout retourner : taille réduite et pas d'entrée improvisée."
+  },
+  {
+   "lvl": "high",
+   "t": "NZDJPY à clôturer dans le Track Record",
+   "x": "Le TP de 87,300 a très probablement été touché le 20/11 (environ +225 $, ≈ 2,9 R), mais la position est toujours « En cours » dans Notion. Vérifie sur MT5, puis renseigne Gain $, Résultat et État."
+  },
+  {
+   "lvl": "med",
+   "t": "Positionnement COT extrême",
+   "x": "NZD vendu à 81 % et AUD à 69,5 % par les fonds. Si le risque rebondit, un rachat de shorts peut être violent. Pense à ta règle : encaisser ou rapprocher le TP près d'un support quand le COT est extrême."
+  },
+  {
+   "lvl": "med",
+   "t": "Macro Map en retard sur les Mornings",
+   "x": "GBP : N-Hawkish dans la Macro Map, mais neutre à baissier dans les Mornings depuis le CPI du 18/11. JPY : neutre dans la Macro Map, neutre à haussier le 20/11. CAD : la fiche attendait le CPI, sorti sous les attentes. La mise à jour de dimanche 9h54 devrait réaligner tout ça."
+  },
+  {
+   "lvl": "med",
+   "t": "Incohérence sur la fiche NZD",
+   "x": "Les Notes perso disent « Vendeur », mais l'État est N-Dovish (neutre à vendeur). Pour ton formateur, l'État devrait être Dovish."
+  },
+  {
+   "lvl": "info",
+   "t": "Semaine chargée avant Thanksgiving",
+   "x": "PMI flash (23-24/11), BCE et CPI australien (25/11), PCE et PIB américain (25/11), CPI de Tokyo (27/11). Ta règle : setup moyen avant une annonce = on attend le chiffre."
+  },
+  {
+   "lvl": "info",
+   "t": "COT daté du 03/11",
+   "x": "Le rapport du 10/11 a été retardé (Veterans Day). Les pourcentages COT ont donc presque trois semaines : à reprendre dimanche."
+  }
+ ],
+ "calendar": [
+  {
+   "d": "2026-11-22",
+   "h": "23:00",
+   "ccy": "AUD",
+   "ev": "PMI flash novembre",
+   "imp": 2
+  },
+  {
+   "d": "2026-11-23",
+   "h": "",
+   "ccy": "JPY",
+   "ev": "Bourse de Tokyo fermée",
+   "imp": 1
+  },
+  {
+   "d": "2026-11-23",
+   "h": "",
+   "ccy": "EUR",
+   "ev": "PMI flash novembre",
+   "imp": 3
+  },
+  {
+   "d": "2026-11-23",
+   "h": "",
+   "ccy": "GBP",
+   "ev": "PMI flash novembre",
+   "imp": 3
+  },
+  {
+   "d": "2026-11-23",
+   "h": "",
+   "ccy": "NZD",
+   "ev": "Ventes au détail T3",
+   "imp": 2
+  },
+  {
+   "d": "2026-11-24",
+   "h": "",
+   "ccy": "JPY",
+   "ev": "PMI flash novembre",
+   "imp": 2
+  },
+  {
+   "d": "2026-11-25",
+   "h": "",
+   "ccy": "AUD",
+   "ev": "CPI d'octobre",
+   "imp": 3
+  },
+  {
+   "d": "2026-11-25",
+   "h": "",
+   "ccy": "EUR",
+   "ev": "BCE : réunion sur les réserves obligatoires",
+   "imp": 2
+  },
+  {
+   "d": "2026-11-25",
+   "h": "",
+   "ccy": "USD",
+   "ev": "PCE, consommation et PIB T3 (2e estimation)",
+   "imp": 3
+  },
+  {
+   "d": "2026-11-26",
+   "h": "",
+   "ccy": "USD",
+   "ev": "Thanksgiving (marchés US fermés)",
+   "imp": 1
+  },
+  {
+   "d": "2026-11-26",
+   "h": "",
+   "ccy": "EUR",
+   "ev": "Comptes rendus de la BCE",
+   "imp": 2
+  },
+  {
+   "d": "2026-11-27",
+   "h": "",
+   "ccy": "JPY",
+   "ev": "CPI de Tokyo",
+   "imp": 2
+  },
+  {
+   "d": "2026-11-27",
+   "h": "",
+   "ccy": "NZD",
+   "ev": "Résultats définitifs des élections",
+   "imp": 2
+  },
+  {
+   "d": "2026-11-30",
+   "h": "",
+   "ccy": "CAD",
+   "ev": "PIB T3",
+   "imp": 3
+  },
+  {
+   "d": "2026-11-30",
+   "h": "",
+   "ccy": "JPY",
+   "ev": "Chômage",
+   "imp": 1
+  },
+  {
+   "d": "2026-12-01",
+   "h": "",
+   "ccy": "EUR",
+   "ev": "IPC flash novembre",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-01",
+   "h": "",
+   "ccy": "USD",
+   "ev": "ISM manufacturier",
+   "imp": 2
+  },
+  {
+   "d": "2026-12-02",
+   "h": "",
+   "ccy": "CHF",
+   "ev": "IPC",
+   "imp": 2
+  },
+  {
+   "d": "2026-12-02",
+   "h": "",
+   "ccy": "AUD",
+   "ev": "PIB T3",
+   "imp": 2
+  },
+  {
+   "d": "2026-12-04",
+   "h": "",
+   "ccy": "USD",
+   "ev": "Emploi (NFP) et chômage",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-04",
+   "h": "",
+   "ccy": "CAD",
+   "ev": "Emploi",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-08",
+   "h": "",
+   "ccy": "AUD",
+   "ev": "Décision RBA",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-09",
+   "h": "",
+   "ccy": "USD",
+   "ev": "Décision Fed",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-09",
+   "h": "",
+   "ccy": "CAD",
+   "ev": "Décision BoC",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-09",
+   "h": "",
+   "ccy": "NZD",
+   "ev": "Décision RBNZ",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-10",
+   "h": "",
+   "ccy": "CHF",
+   "ev": "Décision BNS",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-10",
+   "h": "",
+   "ccy": "USD",
+   "ev": "IPC",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-17",
+   "h": "",
+   "ccy": "GBP",
+   "ev": "Décision BoE",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-17",
+   "h": "",
+   "ccy": "EUR",
+   "ev": "Décision BCE",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-18",
+   "h": "",
+   "ccy": "JPY",
+   "ev": "Décision BoJ",
+   "imp": 3
+  }
+ ],
+ "rules": [
+  "Setup très propre avant une annonce : garder l'ordre, mais avec un risque réduit de moitié.",
+  "Setup moyen avant une annonce : ne pas entrer, attendre le chiffre.",
+  "Pas devant l'écran à l'annonce : ordre déjà posé à risque réduit, ou on laisse passer.",
+  "TP quelques pips avant le support ou la résistance, en tenant compte du spread.",
+  "Si le prix rejette le niveau plusieurs fois, encaisser ou rapprocher le TP, surtout avec un COT extrême.",
+  "Stop à break-even dès que le gain atteint 1 R.",
+  "Risque : 3★ = 0,3 % · 4★ = 0,5-0,7 % · 5★ = 1 %."
+ ],
+ "stocks": {
+  "context": "Semaine difficile pour les valeurs technologiques : Nvidia a publié un trimestre record le 18/11 sans tenir ses gains, Anthropic est entré en Bourse le 19/11, puis les actions liées à l'IA ont chuté le 20/11 et le Nikkei a perdu près de 4,7 %.",
+  "criteria": [
+   "Thèse en une phrase : pourquoi cette entreprise, pourquoi maintenant",
+   "Croissance du chiffre d'affaires et des bénéfices",
+   "Marges et génération de trésorerie",
+   "Dette et solidité du bilan",
+   "Valorisation (PER, comparaison au secteur)",
+   "Catalyseur daté (résultats, produit, décision)",
+   "Niveau technique d'entrée, stop et objectif"
+  ],
+  "market": {
+   "date": "Ven. 20/11 (clôture)",
+   "idx": [
+    {
+     "n": "S&P 500",
+     "v": "6 910,39",
+     "c": -3.7,
+     "w": -8.6
+    },
+    {
+     "n": "Nasdaq 100",
+     "v": "25 028,98",
+     "c": -5.6,
+     "w": -10.4
+    },
+    {
+     "n": "Nasdaq Composite",
+     "v": "22 617,73",
+     "c": -5.28,
+     "w": -10.0
+    },
+    {
+     "n": "Dow Jones",
+     "v": "48 147,33",
+     "c": -1.93,
+     "w": -8.0
+    }
+   ],
+   "notes": [
+    "Le S&P 500 et le Dow passent en correction (plus de 10 % sous leurs records) ; septième baisse d'affilée pour le S&P 500.",
+    "Nvidia perd environ 14 % sur la séance, les valeurs de semi-conducteurs et de l'IA mènent la baisse.",
+    "Le Nasdaq Composite repasse en baisse sur l'année 2026."
+   ],
+   "src": "Yahoo Finance, CNN, StockInvest"
+  }
+ },
+ "news": [
+  {
+   "d": "20/11",
+   "src": "CNN",
+   "t": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves",
+   "fr": "Le Nasdaq chute de 5,28 % et efface sa hausse de l'année ; le S&P 500 aligne sept baisses d'affilée.",
+   "url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai",
+   "tag": "Actions"
+  },
+  {
+   "d": "20/11",
+   "src": "AD HOC NEWS",
+   "t": "VIX jumps 26.20% to 35.89 as tech selloff intensifies",
+   "fr": "Le VIX clôture à 35,89 et touche 40 en séance, son plus haut depuis avril 2025.",
+   "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/vix-jumps-26-20-prozent-to-35-89-as-tech-selloff-intensifies-bloomberg-reports-late-session-touch/70541190",
+   "tag": "Volatilité"
+  },
+  {
+   "d": "20/11",
+   "src": "Crypto Briefing",
+   "t": "Fear & Greed Index falls to 14 as extreme fear grips markets",
+   "fr": "L'indice CNN passe en peur extrême, contre 37 une semaine plus tôt.",
+   "url": "https://cryptobriefing.com/fear-greed-index-falls-to-14-extreme-fear/",
+   "tag": "Sentiment"
+  },
+  {
+   "d": "20/11",
+   "src": "StockInvest",
+   "t": "S&P 500 enters correction and Nasdaq falls 5.3% as chip stocks slide",
+   "fr": "Le S&P 500 termine à plus de 10 % sous son record du 6 octobre ; Nvidia perd environ 14 %.",
+   "url": "https://stockinvest.us/digest/digest-us-market-close-2026-11-20",
+   "tag": "Actions"
+  },
+  {
+   "d": "20/11",
+   "src": "Yahoo Finance",
+   "t": "Nasdaq 100 ends worst week since 2020, S&P 500 in correction territory",
+   "fr": "Sur la semaine : S&P 500 −8,6 %, Nasdaq 100 −10,4 %, Dow −8 %.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-ends-worst-week-013025833.html",
+   "tag": "Actions"
+  },
+  {
+   "d": "19/11",
+   "src": "MQL5 · Market Outlook",
+   "t": "USD/JPY rises to 159.80 and may test 160",
+   "fr": "Le dollar-yen remonte vers 160, zone où le risque d'intervention japonaise revient.",
+   "url": "https://www.mql5.com/en/blogs/post/781323",
+   "tag": "JPY"
+  },
+  {
+   "d": "16/11",
+   "src": "MUFG Research",
+   "t": "JPY Weekly : dollar strengthens as 50bp Fed hike comes into play",
+   "fr": "Waller ouvre la porte à 50 pb en décembre ; l'USDJPY oscille autour de 160 entre craintes d'intervention et dollar fort.",
+   "url": "https://www.mufgresearch.com/fx/jpy-weekly-16-november-2026/",
+   "tag": "USD"
+  }
+ ],
+ "research": {
+  "cb": [
+   {
+    "c": "USD",
+    "n": "Fed · Summary of Economic Projections",
+    "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "note": "Calendrier FOMC, communiqués, projections et minutes"
+   },
+   {
+    "c": "EUR",
+    "n": "BCE · Projections macroéconomiques",
+    "url": "https://www.ecb.europa.eu/press/projections/html/index.en.html",
+    "note": "Projections des services de la BCE et de l'Eurosystème"
+   },
+   {
+    "c": "GBP",
+    "n": "BoE · Monetary Policy Report",
+    "url": "https://www.bankofengland.co.uk/monetary-policy-report/monetary-policy-report",
+    "note": "Rapport trimestriel et projections"
+   },
+   {
+    "c": "JPY",
+    "n": "BoJ · Outlook for Economic Activity and Prices",
+    "url": "https://www.boj.or.jp/en/mopo/outlook/index.htm",
+    "note": "Rapport trimestriel sur les perspectives"
+   },
+   {
+    "c": "CHF",
+    "n": "BNS · Décisions de politique monétaire",
+    "url": "https://www.snb.ch/en/the-snb/mandates-goals/monetary-policy/decisions",
+    "note": "Évaluations trimestrielles et prévisions d'inflation"
+   },
+   {
+    "c": "CAD",
+    "n": "BoC · Monetary Policy Report",
+    "url": "https://www.bankofcanada.ca/publications/mpr/",
+    "note": "Rapport sur la politique monétaire"
+   },
+   {
+    "c": "AUD",
+    "n": "RBA · Statement on Monetary Policy",
+    "url": "https://www.rba.gov.au/publications/smp/",
+    "note": "Prévisions trimestrielles de la RBA"
+   },
+   {
+    "c": "NZD",
+    "n": "RBNZ · Monetary Policy Statement",
+    "url": "https://www.rbnz.govt.nz/monetary-policy/monetary-policy-statement",
+    "note": "Déclaration de politique monétaire et projections"
+   }
+  ],
+  "banks": [
+   {
+    "n": "ING Think",
+    "pays": "Pays-Bas",
+    "url": "https://think.ing.com/",
+    "note": "Très bon sur le FX : notes quotidiennes par devise"
+   },
+   {
+    "n": "MUFG Research",
+    "pays": "Japon",
+    "url": "https://www.mufgresearch.com/",
+    "note": "Hebdos par devise (JPY Weekly, etc.)"
+   },
+   {
+    "n": "J.P. Morgan Asset Management",
+    "pays": "États-Unis",
+    "url": "https://am.jpmorgan.com/us/en/asset-management/adv/insights/market-insights/",
+    "note": "Weekly Market Recap, Guide to the Markets"
+   },
+   {
+    "n": "Goldman Sachs Insights",
+    "pays": "États-Unis",
+    "url": "https://www.goldmansachs.com/insights",
+    "note": "Analyses macro et marchés"
+   },
+   {
+    "n": "Morgan Stanley Ideas",
+    "pays": "États-Unis",
+    "url": "https://www.morganstanley.com/ideas",
+    "note": "Perspectives et stratégie"
+   },
+   {
+    "n": "UBS Chief Investment Office",
+    "pays": "Suisse",
+    "url": "https://www.ubs.com/global/en/wealthmanagement/insights.html",
+    "note": "House view et notes de marché"
+   },
+   {
+    "n": "RBC Thought Leadership",
+    "pays": "Canada",
+    "url": "https://thoughtleadership.rbc.com/",
+    "note": "Économie canadienne et BoC"
+   }
+  ]
+ }
+}
