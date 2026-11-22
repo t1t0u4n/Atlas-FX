@@ -422,7 +422,7 @@ function renderCot(){
   <b>${m.flag} ${m.c}</b><div><div style="display:flex;height:22px;border-radius:6px;overflow:hidden;font-size:12px;font-weight:600">
   <div style="width:${L}%;background:#3ddc9733;color:var(--up);display:flex;align-items:center;padding-left:6px;white-space:nowrap">${L>14?fr(L)+' % long':''}</div>
   <div style="flex:1;background:#ff5c7433;color:var(--down);display:flex;align-items:center;justify-content:flex-end;padding-right:6px;white-space:nowrap">${100-L>14?fr(100-L)+' % short':''}</div></div>
-  <div class="note" style="margin-top:4px">Net ${m.cot.net>0?'+':''}${m.cot.net.toLocaleString('fr-FR')} contrats</div></div>
+  ${m.cot.net!=null?`<div class="note" style="margin-top:4px">Net ${m.cot.net>0?'+':''}${m.cot.net.toLocaleString('fr-FR')} contrats</div>`:''}</div>
   <span class="tag ${ext?'t-warn':m.cot.side==='acheteur'?'t-up':'t-down'}">${ext?'Extrême':m.cot.side==='acheteur'?'Acheteur':'Vendeur'}</span></div>`}).join('');
 }
 

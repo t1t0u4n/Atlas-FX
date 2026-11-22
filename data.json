@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21T11:30",
- "updatedLabel": "Sam. 21/11 · données jusqu'au ven. 20/11 (clôture)",
+ "updated": "2026-11-22T11:30",
+ "updatedLabel": "Dim. 22/11 · Macro Map du 22/11, marchés au ven. 20/11",
  "account": {
   "size": 25000,
   "dailyLoss": 1250,
@@ -249,7 +249,7 @@
    "cb": "Fed",
    "rate": "3,75-4,00 %",
    "next": "09/12",
-   "proba": "Hausse de 25 pb à 99,5 % (20/11)",
+   "proba": "Hausse de 25 pb ≈ 95 % (22/11)",
    "cpi": "3,7 % (sept.)",
    "core": "2,6 %",
    "unemp": "4,1 %",
@@ -258,13 +258,13 @@
    "gdp": "+3,4 % ann. (T3)",
    "cot": {
     "side": "acheteur",
-    "pct": 63.7,
-    "net": 14190
+    "pct": 61.2,
+    "net": null
    },
    "etat": "Hawkish",
-   "note": "Acheteur : IPC d'octobre plus chaud que prévu, hausse de la Fed le 09/12 quasi certaine, emploi solide, COT acheteur (63,7 %).",
+   "note": "Acheteur : minutes FOMC très hawkish, hausse Fed le 09/12 quasi certaine (~95 %), groupe de contrôle des ventes au détail +0,6 %, Michigan 51,5, COT acheteur (61,2 %) malgré des permis au plus bas.",
    "horizon": null,
-   "upd": "15/11",
+   "upd": "22/11",
    "url": "https://app.notion.com/p/451c6fc6303d83c592af01ddec64d4c0"
   },
   {
@@ -273,7 +273,7 @@
    "cb": "BCE",
    "rate": "2,50 % (dépôt)",
    "next": "17/12",
-   "proba": "Hausse à 2,75 % ≈ 80 % (13/11)",
+   "proba": "Hausse en décembre très probable (22/11)",
    "cpi": "4,0 % (oct.)",
    "core": "2,6 %",
    "unemp": "6,5 %",
@@ -282,13 +282,13 @@
    "gdp": "+1,3 % a/a (T3)",
    "cot": {
     "side": "vendeur",
-    "pct": 62.8,
-    "net": -157791
+    "pct": 61.8,
+    "net": null
    },
    "etat": "N-Dovish",
-   "note": "Neutre à vendeur : BCE attendue en hausse en décembre (≈ 80 %), mais emploi à l'arrêt, dollar dominant et COT vendeur (62,8 %).",
+   "note": "Neutre à vendeur : hausse BCE en décembre très probable et sous-jacent révisé à 2,6 %, mais déjà pricée, Fed plus agressive, EUR/USD sous 1,10 et COT vendeur (61,8 %).",
    "horizon": null,
-   "upd": "15/11",
+   "upd": "22/11",
    "url": "https://app.notion.com/p/318c6fc6303d837face68134c7e49961"
   },
   {
@@ -297,7 +297,7 @@
    "cb": "BoE",
    "rate": "4,00 %",
    "next": "17/12",
-   "proba": "Hausse ≈ 80 % après le CPI (18/11)",
+   "proba": "Hausse ≈ 76 % (22/11)",
    "cpi": "3,6 % (oct.)",
    "core": "2,8 %",
    "unemp": "4,6 %",
@@ -306,17 +306,17 @@
    "gdp": "+0,7 % t/t (T3)",
    "cot": {
     "side": "vendeur",
-    "pct": 66.0,
-    "net": -59821
+    "pct": 59.3,
+    "net": null
    },
    "etat": "N-Hawkish",
-   "note": "Neutre à biais haussier : PIB T3 +0,7 %, hausse BoE pricée le 17/12, vendeurs COT qui se couvrent, mais consommation faible et USD fort.",
+   "note": "Neutre à acheteur : chômage 4,6 % et ventes au détail +0,7 % au-dessus des attentes, hausse BoE pricée à 76 % le 17/12, COT vendeur en couverture (59,3 %), mais IPC 3,6 % sous consensus et salaires en ralentissement (3,6 %).",
    "horizon": [
     "Neutre / haussier",
     "Neutre",
     "Neutre"
    ],
-   "upd": "15/11",
+   "upd": "22/11",
    "url": "https://app.notion.com/p/a27c6fc6303d824d8ce881caaf2d5908"
   },
   {
@@ -325,22 +325,22 @@
    "cb": "BoJ",
    "rate": "1,25 %",
    "next": "18/12",
-   "proba": "Hausse à 1,50 % ≈ 72 % (20/11)",
+   "proba": "Hausse à 1,50 % : 86 % des économistes",
    "cpi": "2,3 % (oct.)",
    "core": "2,2 %",
    "unemp": "2,4 %",
    "pmiM": "53,3",
    "pmiS": "51,7",
-   "gdp": "0,0 % t/t (T3)",
+   "gdp": "−0,1 % ann. (T3)",
    "cot": {
     "side": "acheteur",
     "pct": 64.5,
-    "net": 102321
+    "net": null
    },
-   "etat": "Neutre",
-   "note": "Neutre : BoJ vers une hausse le 18/12 et COT acheteur (64,5 %), mais écart de taux avec les US et PIB du T3 nul ; risque d'intervention au-dessus de 160.",
+   "etat": "N-Hawkish",
+   "note": "Neutre à acheteur : Ueda confirme les hausses, IPC 2,3 % et 86 % des économistes pour 1,50 % le 18/12, COT acheteur (64,5 %) ; mais PIB T3 à -0,1 % annualisé et écart de taux avec les US.",
    "horizon": null,
-   "upd": "15/11",
+   "upd": "22/11",
    "url": "https://app.notion.com/p/9e6c6fc6303d83ae888a01072645edf2"
   },
   {
@@ -349,22 +349,22 @@
    "cb": "BNS",
    "rate": "0,00 %",
    "next": "10/12",
-   "proba": "Maintien 83,7 % / hausse 16,3 % (13/11)",
+   "proba": "Hausse ≈ 12 % (22/11)",
    "cpi": "1,5 % (oct.)",
    "core": "0,5 %",
    "unemp": "3,0 %",
    "pmiM": "56,7",
    "pmiS": "59,9",
-   "gdp": "+2,3 % a/a (T2)",
+   "gdp": "+0,2 % t/t (T3)",
    "cot": {
     "side": "vendeur",
-    "pct": 61.0,
-    "net": -16589
+    "pct": 55.5,
+    "net": null
    },
    "etat": "N-Dovish",
-   "note": "Neutre à vendeur : BNS à 0 % (hausse de décembre à 16 %), le franc sert de devise de financement ; COT vendeur (61 %).",
+   "note": "Neutre à vendeur : PIB T3 +0,2 % t/t, hausse BNS en décembre pricée à 12 % seulement (taux 0 %, franc devise de financement) ; COT vendeur (55,5 %) mais en reflux.",
    "horizon": null,
-   "upd": "15/11",
+   "upd": "22/11",
    "url": "https://app.notion.com/p/952c6fc6303d83f8871b814abcda821a"
   },
   {
@@ -373,7 +373,7 @@
    "cb": "BoC",
    "rate": "2,50 %",
    "next": "09/12",
-   "proba": "Hausse 45-63 % avant le CPI (13/11), en baisse depuis",
+   "proba": "Hausse ≈ 40 % (22/11)",
    "cpi": "3,1 % (oct.)",
    "core": "1,8 % (trim)",
    "unemp": "6,7 %",
@@ -382,13 +382,13 @@
    "gdp": "+0,8 % t/t (T2)",
    "cot": {
     "side": "vendeur",
-    "pct": 58.7,
-    "net": -41775
+    "pct": 58.4,
+    "net": null
    },
    "etat": "N-Dovish",
-   "note": "Neutre à vendeur : BoC plus ferme, mais emploi faible et écart de taux avec les US ; COT vendeur (58,7 %). CPI d'octobre sous les attentes.",
+   "note": "Neutre à vendeur : IPC sage (core 2,0 %, tronquée 1,8 %) et ventes au détail −1,5 % font retomber la hausse BoC du 09/12 à ~40 % alors que la Fed monte ; COT vendeur (58,4 %). PIB T3 le 30/11.",
    "horizon": null,
-   "upd": "15/11",
+   "upd": "22/11",
    "url": "https://app.notion.com/p/525c6fc6303d82339a1c81b33754912e"
   },
   {
@@ -397,7 +397,7 @@
    "cb": "RBA",
    "rate": "4,85 %",
    "next": "08/12",
-   "proba": "Maintien 96 % (15/11)",
+   "proba": "Maintien ≈ 80 % (22/11)",
    "cpi": "4,3 % (sept.)",
    "core": "3,6 % (trim)",
    "unemp": "4,9 %",
@@ -406,17 +406,13 @@
    "gdp": "+0,4 % t/t (T2)",
    "cot": {
     "side": "vendeur",
-    "pct": 69.5,
-    "net": -129457
+    "pct": 76.4,
+    "net": null
    },
    "etat": "N-Dovish",
-   "note": "Neutre : RBA à 4,85 % mais pause pricée à 96 % en décembre, confiance en chute, COT très vendeur (69,5 %).",
-   "horizon": [
-    "Neutre / haussier",
-    "Neutre",
-    "Neutre / baissier"
-   ],
-   "upd": "15/11",
+   "note": "Neutre à vendeur : chômage 4,9 % (−43 500 emplois), hausses RBA effacées (80 % de pause en décembre, biais baissier en 2027), COT très vendeur (76,4 %) ; salaires 3,5 % et IPC 4,3 % limitent la baisse.",
+   "horizon": null,
+   "upd": "22/11",
    "url": "https://app.notion.com/p/3c3c6fc6303d82eba2ff81721590f27b"
   },
   {
@@ -425,7 +421,7 @@
    "cb": "RBNZ",
    "rate": "2,75 %",
    "next": "09/12",
-   "proba": "Hausse ≈ 50-60 % (06/11)",
+   "proba": "Hausse ≈ 90 % (22/11)",
    "cpi": "3,7 % (T3)",
    "core": "—",
    "unemp": "5,7 %",
@@ -434,17 +430,17 @@
    "gdp": "+2,6 % a/a (T2)",
    "cot": {
     "side": "vendeur",
-    "pct": 81.0,
-    "net": -60015
+    "pct": 82.3,
+    "net": -63245
    },
    "etat": "N-Dovish",
-   "note": "Vendeur : chômage 5,7 %, hausse RBNZ de décembre à pile ou face face à une Fed qui monte, COT 81 % vendeur (risque de rachat).",
+   "note": "Neutre à vendeur : hausse RBNZ du 09/12 pricée à ≈ 90 % mais Fed aussi en hausse, déficit commercial record, kiwi au plus bas depuis 2020 ; COT 82,3 % vendeur (risque de rachat).",
    "horizon": null,
-   "upd": "15/11",
+   "upd": "22/11",
    "url": "https://app.notion.com/p/fdcc6fc6303d836fa482814444fd3270"
   }
  ],
- "cotDate": "03/11",
+ "cotDate": "17/11",
  "trades": [
   {
    "a": "NZDJPY",
@@ -648,27 +644,22 @@
   {
    "lvl": "med",
    "t": "Positionnement COT extrême",
-   "x": "NZD vendu à 81 % et AUD à 69,5 % par les fonds. Si le risque rebondit, un rachat de shorts peut être violent. Pense à ta règle : encaisser ou rapprocher le TP près d'un support quand le COT est extrême."
+   "x": "Rapport du 17/11 : NZD vendu à 82,3 % et AUD à 76,4 % par les fonds, deux records de positionnement. Un rebond du risque peut déclencher des rachats violents : encaisser ou rapprocher le TP près d'un support."
   },
   {
    "lvl": "med",
-   "t": "Macro Map en retard sur les Mornings",
-   "x": "GBP : N-Hawkish dans la Macro Map, mais neutre à baissier dans les Mornings depuis le CPI du 18/11. JPY : neutre dans la Macro Map, neutre à haussier le 20/11. CAD : la fiche attendait le CPI, sorti sous les attentes. La mise à jour de dimanche 9h54 devrait réaligner tout ça."
+   "t": "GBP : Macro Map et Morning divergent",
+   "x": "La Macro Map passe la livre en neutre à acheteur (BoE à 76 %, chômage en baisse), alors que les Mornings la voient neutre à baissière depuis le CPI du 18/11. Attends une confirmation par le prix avant de jouer la livre à l'achat."
   },
   {
-   "lvl": "med",
-   "t": "Incohérence sur la fiche NZD",
-   "x": "Les Notes perso disent « Vendeur », mais l'État est N-Dovish (neutre à vendeur). Pour ton formateur, l'État devrait être Dovish."
+   "lvl": "info",
+   "t": "JPY et NZD réalignés",
+   "x": "Le JPY passe neutre à acheteur dans la Macro Map, en ligne avec le dernier Morning. La fiche NZD est maintenant cohérente (neutre à vendeur, État N-Dovish)."
   },
   {
    "lvl": "info",
    "t": "Semaine chargée avant Thanksgiving",
    "x": "PMI flash (23-24/11), BCE et CPI australien (25/11), PCE et PIB américain (25/11), CPI de Tokyo (27/11). Ta règle : setup moyen avant une annonce = on attend le chiffre."
-  },
-  {
-   "lvl": "info",
-   "t": "COT daté du 03/11",
-   "x": "Le rapport du 10/11 a été retardé (Veterans Day). Les pourcentages COT ont donc presque trois semaines : à reprendre dimanche."
   }
  ],
  "calendar": [
