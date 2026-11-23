@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22T11:30",
- "updatedLabel": "Dim. 22/11 · Macro Map du 22/11, marchés au ven. 20/11",
+ "updated": "2026-11-23T19:30",
+ "updatedLabel": "Lun. 23/11 · 19h30 (séance US en cours)",
  "account": {
   "size": 25000,
   "dailyLoss": 1250,
@@ -33,9 +33,50 @@
    "v": 10,
    "p": 37
   },
-  "context": "Vente massive des valeurs liées à l'IA après l'introduction en Bourse d'Anthropic : le VIX touche 40 en séance, le yen et le franc sont les devises les plus fortes, l'AUD et le NZD les plus faibles."
+  "context": "Lundi 23/11 : rebond spectaculaire après le retour de Jensen Huang chez Nvidia (action +30 % en séance, S&P 500 et Nasdaq en forte hausse). Le VIX et la Peur & Avidité affichés datent de la clôture de vendredi : ils seront actualisés demain soir, le climat risk-off est donc en train de se détendre."
  },
  "morning": [
+  {
+   "d": "23/11/26",
+   "tone": "up",
+   "ccy": {
+    "USD": [
+     "haussier",
+     "indice dollar à 104,3, plus haut depuis 19 mois, hausse de décembre entièrement pricée"
+    ],
+    "EUR": [
+     "baissier",
+     "EURUSD vers 1,092, France en contraction"
+    ],
+    "GBP": [
+     "neutre/baissier",
+     "services sous les attentes, GBPUSD au plus bas depuis un an"
+    ],
+    "JPY": [
+     "neutre/baissier",
+     "retour du risque, USDJPY vers 159,3"
+    ],
+    "CHF": [
+     "neutre/baissier",
+     "franc plus résistant, mais BNS à 0 %"
+    ],
+    "CAD": [
+     "baissier",
+     "USDCAD au plus haut depuis 19 mois, pétrole en baisse"
+    ],
+    "AUD": [
+     "baissier",
+     "simple rebond technique avant le CPI"
+    ],
+    "NZD": [
+     "baissier",
+     "plus bas depuis 2009, dixième baisse de suite"
+    ]
+   },
+   "pos": "Aucune position ouverte ni ordre en attente.",
+   "next": "Mar. 24 confiance du Conference Board et Richmond Fed ; mer. 25 CPI australien, PCE sous-jacent américain (0,3 % attendu), PIB américain, inscriptions au chômage, commandes de biens durables et réunion BCE sur les réserves ; jeu. 26 Thanksgiving ; ven. 27 CPI de Tokyo et résultats des élections néo-zélandaises.",
+   "key": "Le retour de Jensen Huang chez Nvidia relance les actions, mais le dollar monte avec elles à un plus haut de 19 mois grâce à une hausse de la Fed entièrement pricée."
+  },
   {
    "d": "20/11/26",
    "tone": "down",
@@ -445,11 +486,11 @@
   {
    "a": "NZDJPY",
    "s": "SHORT",
-   "e": "En cours",
+   "e": "Terminé",
    "q": "⭐⭐⭐",
    "d": "2026-11-12",
-   "g": null,
-   "r": "N/A",
+   "g": 137.47,
+   "r": "BE",
    "risk": 0.003,
    "rr": 2.9
   },
@@ -619,27 +660,22 @@
    "rr": 3.2
   }
  ],
- "open": [
-  {
-   "pair": "NZDJPY",
-   "side": "SHORT",
-   "lot": "0,25",
-   "entry": "88,758",
-   "sl": "89,260",
-   "tp": "87,300",
-   "status": "TP probablement touché le 20/11 · à confirmer"
-  }
- ],
+ "open": [],
  "alerts": [
   {
    "lvl": "high",
-   "t": "Risk-off extrême",
-   "x": "VIX à 35,89 (+26 %) et Peur & Avidité à 10. Ce climat favorise le yen et le franc et pénalise l'AUD, le NZD et le CAD. Une seule journée de rebond peut tout retourner : taille réduite et pas d'entrée improvisée."
+   "t": "Retournement brutal du sentiment",
+   "x": "Le marché est passé de la panique (VIX 35,9 vendredi) à un rallye historique lundi avec le retour de Huang. Les devises refuges (JPY, CHF) reculent et l'AUD rebondit. Dans ce genre de journée, les faux signaux sont fréquents : attends la clôture avant de juger le climat."
   },
   {
    "lvl": "high",
-   "t": "NZDJPY à clôturer dans le Track Record",
-   "x": "Le TP de 87,300 a très probablement été touché le 20/11 (environ +225 $, ≈ 2,9 R), mais la position est toujours « En cours » dans Notion. Vérifie sur MT5, puis renseigne Gain $, Résultat et État."
+   "t": "Gros risque de rachat sur NZD et AUD",
+   "x": "Avec le retour du risque, le positionnement record des fonds (NZD vendu à 82,3 %, AUD à 76,4 %) peut provoquer des rebonds violents, comme celui de l'AUD aujourd'hui. Évite de vendre ces devises au plus bas."
+  },
+  {
+   "lvl": "med",
+   "t": "Mercredi 25 : journée à fort impact",
+   "x": "CPI australien (4,8 % attendu), PCE sous-jacent américain (0,3 % attendu), PIB américain et biens durables tombent le même jour, veille de Thanksgiving. Ta règle : setup moyen avant une annonce = on attend le chiffre."
   },
   {
    "lvl": "med",
@@ -658,8 +694,8 @@
   },
   {
    "lvl": "info",
-   "t": "Semaine chargée avant Thanksgiving",
-   "x": "PMI flash (23-24/11), BCE et CPI australien (25/11), PCE et PIB américain (25/11), CPI de Tokyo (27/11). Ta règle : setup moyen avant une annonce = on attend le chiffre."
+   "t": "NZDJPY clôturé",
+   "x": "Le trade est clôturé en break-even dans ton Track Record, à +137,47 $. Le TP de 87,300 n'a donc pas été touché."
   }
  ],
  "calendar": [
@@ -872,6 +908,27 @@
    "ccy": "JPY",
    "ev": "Décision BoJ",
    "imp": 3
+  },
+  {
+   "d": "2026-11-24",
+   "h": "16:00",
+   "ccy": "USD",
+   "ev": "Confiance du Conference Board",
+   "imp": 2
+  },
+  {
+   "d": "2026-11-24",
+   "h": "",
+   "ccy": "USD",
+   "ev": "Richmond Fed",
+   "imp": 1
+  },
+  {
+   "d": "2026-11-25",
+   "h": "",
+   "ccy": "USD",
+   "ev": "Inscriptions au chômage et commandes de biens durables",
+   "imp": 2
   }
  ],
  "rules": [
@@ -884,7 +941,7 @@
   "Risque : 3★ = 0,3 % · 4★ = 0,5-0,7 % · 5★ = 1 %."
  ],
  "stocks": {
-  "context": "Semaine difficile pour les valeurs technologiques : Nvidia a publié un trimestre record le 18/11 sans tenir ses gains, Anthropic est entré en Bourse le 19/11, puis les actions liées à l'IA ont chuté le 20/11 et le Nikkei a perdu près de 4,7 %.",
+  "context": "Semaine du 16/11 : correction violente des valeurs IA (S&P 500 −8,6 %, Nasdaq 100 −10,4 %). Lundi 23/11, le conseil de Nvidia réintègre Jensen Huang onze jours après son départ, ce qui relance tout le secteur technologique.",
   "criteria": [
    "Thèse en une phrase : pourquoi cette entreprise, pourquoi maintenant",
    "Croissance du chiffre d'affaires et des bénéfices",
@@ -923,14 +980,46 @@
     }
    ],
    "notes": [
-    "Le S&P 500 et le Dow passent en correction (plus de 10 % sous leurs records) ; septième baisse d'affilée pour le S&P 500.",
-    "Nvidia perd environ 14 % sur la séance, les valeurs de semi-conducteurs et de l'IA mènent la baisse.",
-    "Le Nasdaq Composite repasse en baisse sur l'année 2026."
+    "Vendredi 20/11 : le S&P 500 et le Dow passent en correction, septième baisse d'affilée pour le S&P 500.",
+    "Lundi 23/11 (en séance) : Nvidia s'envole de plus de 30 % après le retour de Jensen Huang ; le S&P 500 gagnait environ 5 % et le Dow plus de 3 % en cours de journée.",
+    "Les trois indices US étaient en route pour leur meilleure séance depuis avril 2025 ; clôtures à confirmer demain."
    ],
-   "src": "Yahoo Finance, CNN, StockInvest"
+   "src": "Yahoo Finance, CNN, CNBC, Reuters"
   }
  },
  "news": [
+  {
+   "d": "23/11",
+   "src": "CNBC",
+   "t": "Tech stocks rally after Nvidia board approves Jensen Huang's return as CEO",
+   "fr": "Nvidia bondit de 30 % après la réintégration de Jensen Huang ; les valeurs tech et IA rebondissent toutes.",
+   "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+   "tag": "Actions"
+  },
+  {
+   "d": "23/11",
+   "src": "CNN",
+   "t": "Nvidia shares soar more than 30% after Huang reinstated as CEO",
+   "fr": "Le Nasdaq gagne plus de 7 % en matinée ; les trois indices filent vers leur meilleure séance depuis avril 2025.",
+   "url": "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl",
+   "tag": "Actions"
+  },
+  {
+   "d": "23/11",
+   "src": "Reuters via Kitco",
+   "t": "Stocks soar as Nvidia reinstates Huang, reviving AI trade",
+   "fr": "Le Nasdaq 100 prend plus de 6 % et le S&P 500 plus de 4 % ; le STOXX 600 suit avec +1,5 %.",
+   "url": "https://www.kitco.com/news/off-the-wire/2026-11-23/stocks-soar-nvidia-reinstates-huang-reviving-ai-trade",
+   "tag": "Actions"
+  },
+  {
+   "d": "23/11",
+   "src": "Investing.com",
+   "t": "Nvidia shares surge 30% as board announces Jensen Huang's reinstatement",
+   "fr": "Le conseil a voté à l'unanimité le retour de Huang, onze jours après son départ, après échange avec les autorités américaines.",
+   "url": "https://ca.investing.com/news/stock-market-news/nvidia-shares-surge-30-as-board-announces-jensen-huangs-reinstatement-4976103",
+   "tag": "Actions"
+  },
   {
    "d": "20/11",
    "src": "CNN",
