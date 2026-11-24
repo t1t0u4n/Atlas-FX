@@ -550,7 +550,7 @@ function renderResearch(){
  $('bkList').innerHTML=D.research.banks.map(r=>`<a class="card" href="${r.url}"><div style="font-weight:700">${esc(r.n)}</div><div class="note">${esc(r.pays)}</div><p>${esc(r.note)}</p></a>`).join('');
 }
 function renderMarket(){const m=D.stocks.market;if(!m)return;$('stDate').textContent=m.date;
- $('stIdx').innerHTML=m.idx.map(i=>`<div class="card" style="background:var(--panel2)"><div class="note">${i.n}</div><div class="big" style="font-size:22px">${i.v}</div><span style="color:${i.c<0?'var(--down)':'var(--up)'};font-weight:600">${i.c>0?'+':''}${fr(i.c,2)} %</span> <span class="note">· semaine ${i.w>0?'+':''}${fr(i.w)} %</span></div>`).join('');
+ $('stIdx').innerHTML=m.idx.map(i=>`<div class="card" style="background:var(--panel2)"><div class="note">${i.n}</div><div class="big" style="font-size:22px">${i.v}</div><span style="color:${i.c<0?'var(--down)':'var(--up)'};font-weight:600">${i.c>0?'+':''}${fr(i.c,2)} %</span> ${i.w!=null?`<span class="note">· semaine ${i.w>0?'+':''}${fr(i.w)} %</span>`:''}</div>`).join('');
  $('stNotes').innerHTML=m.notes.map(n=>`<li>${esc(n)}</li>`).join('');$('stSrc').textContent='Sources : '+m.src;}
 document.addEventListener('click',e=>{
  const d=e.target.closest('[data-udel]');if(d){U[d.dataset.udel].splice(+d.dataset.i,1);save();({retail:renderRetail,watch:renderWatch,stocks:renderStocks})[d.dataset.udel]()}

@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-23T19:30",
- "updatedLabel": "Lun. 23/11 · 19h30 (séance US en cours)",
+ "updated": "2026-11-24T19:30",
+ "updatedLabel": "Mar. 24/11 · 19h30 (clôtures US du lundi 23/11)",
  "account": {
   "size": 25000,
   "dailyLoss": 1250,
   "dailyGainCap": 800
  },
  "market": {
-  "src": "Clôture du ven. 20/11 · VIX : Cboe · Peur & Avidité : CNN",
+  "src": "VIX : clôture du lun. 23/11 · Peur & Avidité : dernière valeur connue (ven. 20/11)",
   "vix": {
-   "v": 35.89,
-   "p": 28.44,
+   "v": 26.62,
+   "p": 35.89,
    "hist": [
     {
      "d": "18/11",
@@ -26,6 +26,11 @@
      "d": "20/11",
      "v": 35.89,
      "fg": 10
+    },
+    {
+     "d": "23/11",
+     "v": 26.62,
+     "fg": null
     }
    ]
   },
@@ -33,9 +38,50 @@
    "v": 10,
    "p": 37
   },
-  "context": "Lundi 23/11 : rebond spectaculaire après le retour de Jensen Huang chez Nvidia (action +30 % en séance, S&P 500 et Nasdaq en forte hausse). Le VIX et la Peur & Avidité affichés datent de la clôture de vendredi : ils seront actualisés demain soir, le climat risk-off est donc en train de se détendre."
+  "context": "Lundi 23/11 : rallye historique après le retour de Jensen Huang chez Nvidia (action +31,5 %, S&P 500 +4,73 %), le VIX recule de 35,9 à 26,6. Mardi 24/11 en séance : l'euphorie retombe (Nvidia −8 % environ) et la Maison Blanche prépare de nouveaux droits de douane ; le franc profite de la demande refuge."
  },
  "morning": [
+  {
+   "d": "24/11/26",
+   "tone": "flat",
+   "ccy": {
+    "USD": [
+     "haussier",
+     "consolidation vers 103,8 malgré une confiance des ménages au plus haut depuis janvier 2025"
+    ],
+    "EUR": [
+     "neutre/baissier",
+     "Ifo meilleur que prévu, EURUSD vers 1,097, mais tarifs américains en vue"
+    ],
+    "GBP": [
+     "neutre/baissier",
+     "rebond depuis le plus bas de 19 mois, GBPUSD vers 1,311"
+    ],
+    "JPY": [
+     "neutre/baissier",
+     "USDJPY stable vers 159,2, risque d'intervention"
+    ],
+    "CHF": [
+     "neutre",
+     "devise la plus forte du jour grâce à la demande refuge"
+    ],
+    "CAD": [
+     "baissier",
+     "simple pause après dix séances de hausse de l'USDCAD"
+    ],
+    "AUD": [
+     "baissier",
+     "stable avant le CPI de demain"
+    ],
+    "NZD": [
+     "baissier",
+     "rebond technique près des plus bas depuis 2009"
+    ]
+   },
+   "pos": "Aucune position ouverte ni ordre en attente.",
+   "next": "Ce soir : annonce possible de nouveaux droits de douane américains. Mer. 25 : CPI australien (4,8 % attendu), PCE d'octobre, PIB américain T3 (2e estimation), biens durables, chômage, Beige Book et réunion BCE sur les réserves. Jeu. 26 : Thanksgiving. Ven. 27 : CPI de Tokyo et élections NZ. Dim. 29 : OPEP+.",
+   "key": "Le dollar rend ses gains de lundi malgré une confiance des ménages très solide, car l'euphorie Nvidia retombe et le retour des droits de douane favorise le franc ; le PCE de demain dira si la hausse de la Fed en janvier se confirme."
+  },
   {
    "d": "23/11/26",
    "tone": "up",
@@ -664,8 +710,13 @@
  "alerts": [
   {
    "lvl": "high",
-   "t": "Retournement brutal du sentiment",
-   "x": "Le marché est passé de la panique (VIX 35,9 vendredi) à un rallye historique lundi avec le retour de Huang. Les devises refuges (JPY, CHF) reculent et l'AUD rebondit. Dans ce genre de journée, les faux signaux sont fréquents : attends la clôture avant de juger le climat."
+   "t": "Nouveaux droits de douane américains",
+   "x": "La Maison Blanche prépare une vague de droits de douane sur la Chine, l'UE et une quinzaine de pays, annoncée possiblement ce soir. Risque de gap à l'ouverture asiatique : AUD, NZD (Chine) et EUR exposés, CHF et JPY favorisés."
+  },
+  {
+   "lvl": "high",
+   "t": "VIX encore au-dessus de 25",
+   "x": "Le VIX est retombé à 26,6 après le rallye de lundi, mais il reste en zone de tension. La volatilité intraday reste forte : taille réduite et stops plus larges."
   },
   {
    "lvl": "high",
@@ -691,11 +742,6 @@
    "lvl": "info",
    "t": "JPY et NZD réalignés",
    "x": "Le JPY passe neutre à acheteur dans la Macro Map, en ligne avec le dernier Morning. La fiche NZD est maintenant cohérente (neutre à vendeur, État N-Dovish)."
-  },
-  {
-   "lvl": "info",
-   "t": "NZDJPY clôturé",
-   "x": "Le trade est clôturé en break-even dans ton Track Record, à +137,47 $. Le TP de 87,300 n'a donc pas été touché."
   }
  ],
  "calendar": [
@@ -941,7 +987,7 @@
   "Risque : 3★ = 0,3 % · 4★ = 0,5-0,7 % · 5★ = 1 %."
  ],
  "stocks": {
-  "context": "Semaine du 16/11 : correction violente des valeurs IA (S&P 500 −8,6 %, Nasdaq 100 −10,4 %). Lundi 23/11, le conseil de Nvidia réintègre Jensen Huang onze jours après son départ, ce qui relance tout le secteur technologique.",
+  "context": "Après une semaine de correction (S&P 500 −8,6 %), le retour de Jensen Huang chez Nvidia a déclenché lundi un rallye historique. Mardi, les gains s'effritent avec la menace de nouveaux droits de douane sur la Chine, l'UE et une quinzaine de pays.",
   "criteria": [
    "Thèse en une phrase : pourquoi cette entreprise, pourquoi maintenant",
    "Croissance du chiffre d'affaires et des bénéfices",
@@ -952,42 +998,74 @@
    "Niveau technique d'entrée, stop et objectif"
   ],
   "market": {
-   "date": "Ven. 20/11 (clôture)",
+   "date": "Lun. 23/11 (clôture)",
    "idx": [
     {
      "n": "S&P 500",
-     "v": "6 910,39",
-     "c": -3.7,
-     "w": -8.6
-    },
-    {
-     "n": "Nasdaq 100",
-     "v": "25 028,98",
-     "c": -5.6,
-     "w": -10.4
+     "v": "7 237,17",
+     "c": 4.73,
+     "w": null
     },
     {
      "n": "Nasdaq Composite",
-     "v": "22 617,73",
-     "c": -5.28,
-     "w": -10.0
+     "v": "24 089,56",
+     "c": 6.51,
+     "w": null
     },
     {
      "n": "Dow Jones",
-     "v": "48 147,33",
-     "c": -1.93,
-     "w": -8.0
+     "v": "≈ +1 400 pts",
+     "c": 3.0,
+     "w": null
+    },
+    {
+     "n": "VIX",
+     "v": "26,62",
+     "c": -25.8,
+     "w": null
     }
    ],
    "notes": [
-    "Vendredi 20/11 : le S&P 500 et le Dow passent en correction, septième baisse d'affilée pour le S&P 500.",
-    "Lundi 23/11 (en séance) : Nvidia s'envole de plus de 30 % après le retour de Jensen Huang ; le S&P 500 gagnait environ 5 % et le Dow plus de 3 % en cours de journée.",
-    "Les trois indices US étaient en route pour leur meilleure séance depuis avril 2025 ; clôtures à confirmer demain."
+    "Lundi 23/11 : meilleure séance du S&P 500 et du Nasdaq depuis avril 2025 ; le S&P 500 efface un peu plus de la moitié de la baisse de la semaine précédente.",
+    "Nvidia termine à +31,5 %, soit environ 950 Md$ de capitalisation gagnés en une séance, un record.",
+    "Mardi 24/11 en séance : le Nasdaq rend une partie des gains (environ −1,5 à −2 %), Nvidia recule et de nouveaux droits de douane sont attendus."
    ],
-   "src": "Yahoo Finance, CNN, CNBC, Reuters"
+   "src": "CNBC, NBC News, Yahoo Finance, PC Thematic"
   }
  },
  "news": [
+  {
+   "d": "23/11",
+   "src": "CNBC",
+   "t": "Dow soars 1,400 points; Nasdaq surges 6% in its best day since April 2025",
+   "fr": "S&P 500 +4,73 % à 7 237,17 et Nasdaq +6,51 % à 24 089,56 à la clôture.",
+   "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
+   "tag": "Actions"
+  },
+  {
+   "d": "23/11",
+   "src": "NBC News",
+   "t": "Stocks surge in best day since 2025 after Jensen Huang returns to Nvidia",
+   "fr": "Nvidia clôture à +31,5 %, environ 950 Md$ gagnés : la plus forte hausse en valeur de l'histoire en une séance.",
+   "url": "https://www.nbcnews.com/business/markets/stocks-rebound-ai-tech-selloff-nvidia-rcna610833",
+   "tag": "Actions"
+  },
+  {
+   "d": "24/11",
+   "src": "Yahoo Finance",
+   "t": "Chip stocks led a $3 trillion comeback on Monday — now comes Turnaround Tuesday",
+   "fr": "Le S&P 500 a gagné environ 3 000 Md$ lundi ; historiquement, la semaine qui suit ce type de rebond est souvent agitée.",
+   "url": "https://finance.yahoo.com/markets/article/chip-stocks-led-a-3-trillion-comeback-on-monday--now-comes-turnaround-tuesday-chart-of-the-day-110000187.html",
+   "tag": "Actions"
+  },
+  {
+   "d": "24/11",
+   "src": "CNBC",
+   "t": "Nasdaq declines as Nvidia slides, giving back part of Monday's rally",
+   "fr": "Mardi en séance, le Nasdaq recule et rend une partie du rallye de lundi.",
+   "url": "https://cnbc.com/2026/11/23/stock-market-today-live-updates.html",
+   "tag": "Actions"
+  },
   {
    "d": "23/11",
    "src": "CNBC",
