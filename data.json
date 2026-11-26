@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-24T19:30",
- "updatedLabel": "Mar. 24/11 · 19h30 (clôtures US du lundi 23/11)",
+ "updated": "2026-11-26T19:30",
+ "updatedLabel": "Jeu. 26/11 · 19h30 (clôtures US du mercredi 25/11, Wall Street fermée pour Thanksgiving)",
  "account": {
   "size": 25000,
   "dailyLoss": 1250,
   "dailyGainCap": 800
  },
  "market": {
-  "src": "VIX : clôture du lun. 23/11 · Peur & Avidité : dernière valeur connue (ven. 20/11)",
+  "src": "VIX : clôture du mer. 25/11 · Peur & Avidité : fin de séance du 25/11 (plus bas à 9 en séance)",
   "vix": {
-   "v": 26.62,
-   "p": 35.89,
+   "v": 28.29,
+   "p": 26.36,
    "hist": [
     {
      "d": "18/11",
@@ -31,16 +31,67 @@
      "d": "23/11",
      "v": 26.62,
      "fg": null
+    },
+    {
+     "d": "24/11",
+     "v": 26.36,
+     "fg": null
+    },
+    {
+     "d": "25/11",
+     "v": 28.29,
+     "fg": 15
     }
    ]
   },
   "fg": {
-   "v": 10,
-   "p": 37
+   "v": 15,
+   "p": 10
   },
-  "context": "Lundi 23/11 : rallye historique après le retour de Jensen Huang chez Nvidia (action +31,5 %, S&P 500 +4,73 %), le VIX recule de 35,9 à 26,6. Mardi 24/11 en séance : l'euphorie retombe (Nvidia −8 % environ) et la Maison Blanche prépare de nouveaux droits de douane ; le franc profite de la demande refuge."
+  "context": "Mercredi 25/11 : séance très agitée, le S&P 500 perd jusqu'à 3,2 % avant de finir à −0,3 % (Nvidia −3,9 %). PCE sous-jacent à 3,3 %, PIB révisé à 4,3 % et nouveaux droits de douane : le VIX remonte à 28,3 et le Peur & Avidité touche 9 en séance, son plus bas depuis mars. Jeudi 26/11 : Wall Street fermée (Thanksgiving)."
  },
  "morning": [
+  {
+   "d": "26/11/26",
+   "tone": "flat",
+   "ccy": {
+    "USD": [
+     "haussier",
+     "PCE sous-jacent à 3,3 % et PIB révisé à 4,3 %, mais dollar stable vers 103,8 pendant Thanksgiving"
+    ],
+    "EUR": [
+     "neutre/baissier",
+     "comptes BCE fermes, GfK décevant, EURUSD vers 1,098"
+    ],
+    "GBP": [
+     "neutre/baissier",
+     "rapport de stabilité sans impact, GBPUSD vers 1,310"
+    ],
+    "JPY": [
+     "neutre/haussier",
+     "Tamura pousse à accélérer les hausses, USDJPY bloqué sous 160"
+    ],
+    "CHF": [
+     "neutre/baissier",
+     "retour du risque, USDCHF vers 0,834"
+    ],
+    "CAD": [
+     "neutre/baissier",
+     "pétrole en soutien, USDCAD vers 1,422"
+    ],
+    "AUD": [
+     "baissier",
+     "CPI à 4,9 % au-dessus des attentes, mais Fed plus agressive"
+    ],
+    "NZD": [
+     "baissier",
+     "rebond essoufflé près des plus bas depuis 2009"
+    ]
+   },
+   "pos": "EURJPY SHORT (ouvert aujourd'hui) : environ 0,2 lot à 174,897, SL 175,661 (risque d'environ 96 $), TP vers 173,142. Latent quasi nul en fin de journée.",
+   "next": "Ven. 27 : CPI de Tokyo et résultats officiels des élections NZ. Dim. 29 : OPEP+ et votations suisses. Lun. 30 : PIB canadien. RBA le 8/12, Fed les 8-9/12, BoC et RBNZ le 9/12, BNS le 10/12, BCE et BoE le 17/12, BoJ les 17-18/12.",
+   "key": "La BoJ durcit le ton avec Tamura juste avant le CPI de Tokyo, ce qui soutient le yen face à l'euro et à la livre, alors que le dollar reste figé pendant Thanksgiving malgré un PCE et un PIB qui confirment la hausse de la Fed."
+  },
   {
    "d": "24/11/26",
    "tone": "flat",
@@ -530,6 +581,28 @@
  "cotDate": "17/11",
  "trades": [
   {
+   "a": "EURJPY",
+   "s": "SHORT",
+   "e": "En cours",
+   "q": "⭐⭐⭐⭐",
+   "d": "2026-11-26",
+   "g": null,
+   "r": "N/A",
+   "risk": 0.0038,
+   "rr": 2.3
+  },
+  {
+   "a": "CADJPY",
+   "s": "SHORT",
+   "e": "Terminé",
+   "q": null,
+   "d": "2026-11-25",
+   "g": -102.4,
+   "r": "SL",
+   "risk": 0.004,
+   "rr": 3.5
+  },
+  {
    "a": "NZDJPY",
    "s": "SHORT",
    "e": "Terminé",
@@ -706,42 +779,47 @@
    "rr": 3.2
   }
  ],
- "open": [],
+ "open": [
+  {
+   "pair": "EURJPY",
+   "side": "SHORT",
+   "lot": "≈ 0,2",
+   "entry": "174,897",
+   "sl": "175,661",
+   "tp": "173,142",
+   "status": "Ouvert le 26/11, risque d'environ 96 $. Latent quasi nul. CPI de Tokyo demain et liquidité réduite (Thanksgiving) : mouvements brusques possibles."
+  }
+ ],
  "alerts": [
   {
    "lvl": "high",
-   "t": "Nouveaux droits de douane américains",
-   "x": "La Maison Blanche prépare une vague de droits de douane sur la Chine, l'UE et une quinzaine de pays, annoncée possiblement ce soir. Risque de gap à l'ouverture asiatique : AUD, NZD (Chine) et EUR exposés, CHF et JPY favorisés."
+   "t": "EURJPY short ouvert avant le CPI de Tokyo",
+   "x": "Le CPI de Tokyo tombe demain (vendredi 27) avec une liquidité réduite après Thanksgiving. Tamura (BoJ) va dans ton sens, mais un chiffre faible peut faire rebondir la paire vers ton SL à 175,661. Ne déplace pas le stop."
   },
   {
    "lvl": "high",
-   "t": "VIX encore au-dessus de 25",
-   "x": "Le VIX est retombé à 26,6 après le rallye de lundi, mais il reste en zone de tension. La volatilité intraday reste forte : taille réduite et stops plus larges."
+   "t": "VIX à 28,3 et peur extrême",
+   "x": "Le VIX est remonté de 26,4 à 28,3 mercredi et le Peur & Avidité a touché 9 en séance, son plus bas depuis mars. Climat risk-off : taille réduite et stops respectés."
   },
   {
    "lvl": "high",
-   "t": "Gros risque de rachat sur NZD et AUD",
-   "x": "Avec le retour du risque, le positionnement record des fonds (NZD vendu à 82,3 %, AUD à 76,4 %) peut provoquer des rebonds violents, comme celui de l'AUD aujourd'hui. Évite de vendre ces devises au plus bas."
+   "t": "Deuxième perte en deux jours sur les croisements yen",
+   "x": "CADJPY coupé au SL le 25/11 (−102,40 $), entré quelques heures avant le PCE et le PIB, juste après un discours ferme de Macklem. Ta règle : pas d'entrée moyenne juste avant une annonce majeure. Pas de nouvelle position avant d'avoir géré l'EURJPY."
   },
   {
    "lvl": "med",
-   "t": "Mercredi 25 : journée à fort impact",
-   "x": "CPI australien (4,8 % attendu), PCE sous-jacent américain (0,3 % attendu), PIB américain et biens durables tombent le même jour, veille de Thanksgiving. Ta règle : setup moyen avant une annonce = on attend le chiffre."
+   "t": "Risque d'intervention vers 160 sur l'USDJPY",
+   "x": "L'USDJPY reste collé à 159,15. Une intervention du Japon ferait chuter tous les croisements yen, ce qui irait dans le sens de ton EURJPY, mais avec des écarts de prix importants."
   },
   {
    "lvl": "med",
-   "t": "Positionnement COT extrême",
-   "x": "Rapport du 17/11 : NZD vendu à 82,3 % et AUD à 76,4 % par les fonds, deux records de positionnement. Un rebond du risque peut déclencher des rachats violents : encaisser ou rapprocher le TP près d'un support."
+   "t": "Week-end chargé",
+   "x": "Élections NZ vendredi, OPEP+ et votations suisses dimanche, PIB canadien lundi : risque de gap à l'ouverture de lundi sur NZD, CAD et CHF."
   },
   {
    "lvl": "med",
-   "t": "GBP : Macro Map et Morning divergent",
-   "x": "La Macro Map passe la livre en neutre à acheteur (BoE à 76 %, chômage en baisse), alors que les Mornings la voient neutre à baissière depuis le CPI du 18/11. Attends une confirmation par le prix avant de jouer la livre à l'achat."
-  },
-  {
-   "lvl": "info",
-   "t": "JPY et NZD réalignés",
-   "x": "Le JPY passe neutre à acheteur dans la Macro Map, en ligne avec le dernier Morning. La fiche NZD est maintenant cohérente (neutre à vendeur, État N-Dovish)."
+   "t": "Positionnement COT extrême sur NZD et AUD",
+   "x": "Rapport du 17/11 : NZD vendu à 82,3 % et AUD à 76,4 % par les fonds. Un retour du risque peut provoquer des rachats violents : évite de vendre ces devises au plus bas."
   }
  ],
  "calendar": [
@@ -788,6 +866,20 @@
    "imp": 2
   },
   {
+   "d": "2026-11-24",
+   "h": "",
+   "ccy": "USD",
+   "ev": "Richmond Fed",
+   "imp": 1
+  },
+  {
+   "d": "2026-11-24",
+   "h": "16:00",
+   "ccy": "USD",
+   "ev": "Confiance du Conference Board",
+   "imp": 2
+  },
+  {
    "d": "2026-11-25",
    "h": "",
    "ccy": "AUD",
@@ -807,6 +899,13 @@
    "ccy": "USD",
    "ev": "PCE, consommation et PIB T3 (2e estimation)",
    "imp": 3
+  },
+  {
+   "d": "2026-11-25",
+   "h": "",
+   "ccy": "USD",
+   "ev": "Inscriptions au chômage et commandes de biens durables",
+   "imp": 2
   },
   {
    "d": "2026-11-26",
@@ -835,6 +934,20 @@
    "ccy": "NZD",
    "ev": "Résultats définitifs des élections",
    "imp": 2
+  },
+  {
+   "d": "2026-11-29",
+   "h": "",
+   "ccy": "CAD",
+   "ev": "Réunion de l'OPEP+",
+   "imp": 2
+  },
+  {
+   "d": "2026-11-29",
+   "h": "",
+   "ccy": "CHF",
+   "ev": "Votations suisses",
+   "imp": 1
   },
   {
    "d": "2026-11-30",
@@ -954,27 +1067,6 @@
    "ccy": "JPY",
    "ev": "Décision BoJ",
    "imp": 3
-  },
-  {
-   "d": "2026-11-24",
-   "h": "16:00",
-   "ccy": "USD",
-   "ev": "Confiance du Conference Board",
-   "imp": 2
-  },
-  {
-   "d": "2026-11-24",
-   "h": "",
-   "ccy": "USD",
-   "ev": "Richmond Fed",
-   "imp": 1
-  },
-  {
-   "d": "2026-11-25",
-   "h": "",
-   "ccy": "USD",
-   "ev": "Inscriptions au chômage et commandes de biens durables",
-   "imp": 2
   }
  ],
  "rules": [
@@ -987,7 +1079,7 @@
   "Risque : 3★ = 0,3 % · 4★ = 0,5-0,7 % · 5★ = 1 %."
  ],
  "stocks": {
-  "context": "Après une semaine de correction (S&P 500 −8,6 %), le retour de Jensen Huang chez Nvidia a déclenché lundi un rallye historique. Mardi, les gains s'effritent avec la menace de nouveaux droits de douane sur la Chine, l'UE et une quinzaine de pays.",
+  "context": "Après le rallye de lundi, les valeurs de l'IA rendent une partie des gains mardi et mercredi, alors que le reste de la cote résiste (Dow au-dessus de 50 000). Le PCE à 3,3 %, le PIB révisé à 4,3 % et les nouveaux droits de douane relancent la peur : Peur & Avidité à 9 en séance mercredi. Wall Street est fermée jeudi pour Thanksgiving.",
   "criteria": [
    "Thèse en une phrase : pourquoi cette entreprise, pourquoi maintenant",
    "Croissance du chiffre d'affaires et des bénéfices",
@@ -998,42 +1090,90 @@
    "Niveau technique d'entrée, stop et objectif"
   ],
   "market": {
-   "date": "Lun. 23/11 (clôture)",
+   "date": "Mer. 25/11 (clôture)",
    "idx": [
     {
      "n": "S&P 500",
-     "v": "7 237,17",
-     "c": 4.73,
-     "w": null
+     "v": "7 182,78",
+     "c": -0.25,
+     "w": 3.9
     },
     {
      "n": "Nasdaq Composite",
-     "v": "24 089,56",
-     "c": 6.51,
-     "w": null
+     "v": "23 585,80",
+     "c": -0.62,
+     "w": 4.3
     },
     {
      "n": "Dow Jones",
-     "v": "≈ +1 400 pts",
-     "c": 3.0,
-     "w": null
+     "v": "50 182,95",
+     "c": 0.33,
+     "w": 4.2
     },
     {
      "n": "VIX",
-     "v": "26,62",
-     "c": -25.8,
+     "v": "28,29",
+     "c": 7.32,
      "w": null
     }
    ],
    "notes": [
-    "Lundi 23/11 : meilleure séance du S&P 500 et du Nasdaq depuis avril 2025 ; le S&P 500 efface un peu plus de la moitié de la baisse de la semaine précédente.",
-    "Nvidia termine à +31,5 %, soit environ 950 Md$ de capitalisation gagnés en une séance, un record.",
-    "Mardi 24/11 en séance : le Nasdaq rend une partie des gains (environ −1,5 à −2 %), Nvidia recule et de nouveaux droits de douane sont attendus."
+    "Mardi 24/11 : le rebond de l'IA s'essouffle (Nasdaq −1,5 %, Nvidia −6 à −7 %), mais le Dow clôture au-dessus de 50 000 points pour la première fois.",
+    "Mercredi 25/11 : le S&P 500 chute jusqu'à −3,2 % en séance avant de presque tout effacer (−0,25 %) ; Nvidia −3,9 %, Amazon −3,1 %, HP +11,5 %.",
+    "Sur la semaine (lundi à mercredi) : S&P 500 +3,9 %, Nasdaq +4,3 %, Dow +4,2 %. Jeudi 26/11 : Wall Street fermée (Thanksgiving), séance courte vendredi."
    ],
-   "src": "CNBC, NBC News, Yahoo Finance, PC Thematic"
+   "src": "AP, Swingfolio, Capp Notes, portfolio-terminal"
   }
  },
  "news": [
+  {
+   "d": "25/11",
+   "src": "AP",
+   "t": "How major US stock indexes fared Wednesday 11/25/2026",
+   "fr": "Le S&P 500 finit à −0,3 % (7 182,78) après une chute de 3,2 % en séance ; le Dow gagne 0,3 % et le Nasdaq perd 0,6 %.",
+   "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-wednesday-11-25-2026",
+   "tag": "Actions"
+  },
+  {
+   "d": "25/11",
+   "src": "Swingfolio",
+   "t": "US Close Nov 25, 2026: S&P 500 -0.25%, NVDA -3.91%",
+   "fr": "Nvidia recule de 3,9 %, Amazon de 3,1 % ; HP bondit de 11,5 %. PCE sous-jacent à 3,3 % et nouveaux droits de douane.",
+   "url": "https://swingfolio.com/daily/us/2026-11-25/afternoon",
+   "tag": "Actions"
+  },
+  {
+   "d": "25/11",
+   "src": "ad-hoc-news",
+   "t": "VIX Closed Wednesday at 28.29 as Inflation Risks Rose",
+   "fr": "Le VIX clôture à 28,29 (+7,3 %) avec l'inflation, la révision du PIB et les nouveaux droits de douane.",
+   "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/vix-closed-wednesday-at-28-29-as-inflation-risks-rose/70557948",
+   "tag": "Macro"
+  },
+  {
+   "d": "26/11",
+   "src": "MNI",
+   "t": "MNI INTERVIEW: Yen To Drive BOJ's Dec Hike Decision - Momma",
+   "fr": "Pour l'ex-directeur de la BoJ Kazuo Momma, un USDJPY vers 160 rendrait la hausse de décembre certaine.",
+   "url": "https://www.mnimarkets.com/mni-interview-yen-to-drive-bojs-dec-hike-decision-momma-1764132799889",
+   "tag": "FX"
+  },
+  {
+   "d": "24/11",
+   "src": "AP",
+   "t": "How major US stock indexes fared Tuesday 11/24/2026",
+   "fr": "Le S&P 500 perd 0,5 % (8e baisse en 9 séances) et le Nasdaq 1,5 %, alors que le Dow gagne plus de 400 points.",
+   "url": "https://wtop.com/national/2026/11/how-major-us-stock-indexes-fared-tuesday-11-24-2026",
+   "tag": "Actions"
+  },
+  {
+   "d": "24/11",
+   "src": "Capp Notes",
+   "t": "Closing Look — Tuesday, November 24, 2026",
+   "fr": "Le rebond de l'IA s'essouffle ; le Dow clôture au-dessus de 50 000 points pour la première fois.",
+   "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-24",
+   "tag": "Actions"
+  },
   {
    "d": "23/11",
    "src": "CNBC",
@@ -1145,14 +1285,6 @@
    "fr": "Le dollar-yen remonte vers 160, zone où le risque d'intervention japonaise revient.",
    "url": "https://www.mql5.com/en/blogs/post/781323",
    "tag": "JPY"
-  },
-  {
-   "d": "16/11",
-   "src": "MUFG Research",
-   "t": "JPY Weekly : dollar strengthens as 50bp Fed hike comes into play",
-   "fr": "Waller ouvre la porte à 50 pb en décembre ; l'USDJPY oscille autour de 160 entre craintes d'intervention et dollar fort.",
-   "url": "https://www.mufgresearch.com/fx/jpy-weekly-16-november-2026/",
-   "tag": "USD"
   }
  ],
  "research": {
