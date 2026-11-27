@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-26T19:30",
- "updatedLabel": "Jeu. 26/11 · 19h30 (clôtures US du mercredi 25/11, Wall Street fermée pour Thanksgiving)",
+ "updated": "2026-11-27T19:30",
+ "updatedLabel": "Ven. 27/11 · 19h30 (séance US raccourcie close à 19h)",
  "account": {
   "size": 25000,
   "dailyLoss": 1250,
   "dailyGainCap": 800
  },
  "market": {
-  "src": "VIX : clôture du mer. 25/11 · Peur & Avidité : fin de séance du 25/11 (plus bas à 9 en séance)",
+  "src": "VIX : dernière clôture publiée (26/11, FRED) · Peur & Avidité : fin de séance du 25/11 · Indices : clôture du ven. 27/11",
   "vix": {
-   "v": 28.29,
-   "p": 26.36,
+   "v": 26.8,
+   "p": 28.29,
    "hist": [
     {
      "d": "18/11",
@@ -41,6 +41,11 @@
      "d": "25/11",
      "v": 28.29,
      "fg": 15
+    },
+    {
+     "d": "26/11",
+     "v": 26.8,
+     "fg": null
     }
    ]
   },
@@ -48,9 +53,50 @@
    "v": 15,
    "p": 10
   },
-  "context": "Mercredi 25/11 : séance très agitée, le S&P 500 perd jusqu'à 3,2 % avant de finir à −0,3 % (Nvidia −3,9 %). PCE sous-jacent à 3,3 %, PIB révisé à 4,3 % et nouveaux droits de douane : le VIX remonte à 28,3 et le Peur & Avidité touche 9 en séance, son plus bas depuis mars. Jeudi 26/11 : Wall Street fermée (Thanksgiving)."
+  "context": "Vendredi 27/11, séance raccourcie : rebond général après Thanksgiving, porté par les semi-conducteurs (S&P 500 +1,7 %, Nasdaq +2,3 %). Wall Street boucle une semaine à plus de 5 % de hausse malgré les secousses de mardi et mercredi. Le VIX recule vers 26,8 mais reste en zone de tension."
  },
  "morning": [
+  {
+   "d": "27/11/26",
+   "tone": "up",
+   "ccy": {
+    "USD": [
+     "haussier",
+     "dollar stable vers 103,8, hausse de décembre déjà pricée, rendements en hausse"
+    ],
+    "EUR": [
+     "neutre/baissier",
+     "inflation française et espagnole sous les attentes, mais BCE toujours ferme"
+    ],
+    "GBP": [
+     "neutre/baissier",
+     "GBPUSD vers 1,3115, semaine positive grâce aux paris sur la BoE"
+    ],
+    "JPY": [
+     "neutre/haussier",
+     "CPI de Tokyo au plus haut depuis 16 mois, mais tiré par l'énergie, USDJPY sous 160"
+    ],
+    "CHF": [
+     "neutre/baissier",
+     "franc pénalisé par le retour du goût du risque, USDCHF vers 0,836"
+    ],
+    "CAD": [
+     "neutre/baissier",
+     "USDCAD stable vers 1,4245 avant le PIB"
+    ],
+    "AUD": [
+     "neutre/baissier",
+     "devise la plus forte du jour grâce aux métaux, AUDUSD vers 0,665"
+    ],
+    "NZD": [
+     "baissier",
+     "parlement sans majorité, coalition dépendante d'Opportunity"
+    ]
+   },
+   "pos": "EURJPY SHORT : environ 0,2 lot à 174,897, SL 175,661, TP vers 173,142. Paire vers 174,4-174,5, gain latent d'environ +50 à +60 $. Stop à break-even à discuter avant le week-end.",
+   "next": "Ce soir : revue de la note de la France par S&P. Dim. 29 : OPEP+ et votations suisses. Lun. 30 : PIB canadien T3. Mar. 1/12 : ISM manufacturier et JOLTS. Ven. 4/12 : emploi américain et canadien. RBA le 8/12, Fed les 8-9/12, BoC et RBNZ le 9/12, BNS le 10/12, BCE et BoE le 17/12, BoJ les 17-18/12.",
+   "key": "Le goût du risque revient après Thanksgiving et profite à l'australien et à l'or, alors que le dollar reste figé et que l'euro recule légèrement avec une inflation française et espagnole nettement sous les attentes."
+  },
   {
    "d": "26/11/26",
    "tone": "flat",
@@ -787,39 +833,39 @@
    "entry": "174,897",
    "sl": "175,661",
    "tp": "173,142",
-   "status": "Ouvert le 26/11, risque d'environ 96 $. Latent quasi nul. CPI de Tokyo demain et liquidité réduite (Thanksgiving) : mouvements brusques possibles."
+   "status": "Gain latent d'environ +50 à +60 $ (paire vers 174,4-174,5). Le CPI de Tokyo n'a pas fait vaciller le trade. Week-end à faible liquidité : passage du stop à break-even à envisager."
   }
  ],
  "alerts": [
   {
    "lvl": "high",
-   "t": "EURJPY short ouvert avant le CPI de Tokyo",
-   "x": "Le CPI de Tokyo tombe demain (vendredi 27) avec une liquidité réduite après Thanksgiving. Tamura (BoJ) va dans ton sens, mais un chiffre faible peut faire rebondir la paire vers ton SL à 175,661. Ne déplace pas le stop."
+   "t": "EURJPY en gain avant le week-end",
+   "x": "Le short est en gain latent d'environ +50 à +60 $. Avec la note de la France par S&P ce soir et un week-end chargé, le passage du stop à break-even protégerait le trade contre un gap lundi."
   },
   {
    "lvl": "high",
-   "t": "VIX à 28,3 et peur extrême",
-   "x": "Le VIX est remonté de 26,4 à 28,3 mercredi et le Peur & Avidité a touché 9 en séance, son plus bas depuis mars. Climat risk-off : taille réduite et stops respectés."
-  },
-  {
-   "lvl": "high",
-   "t": "Deuxième perte en deux jours sur les croisements yen",
-   "x": "CADJPY coupé au SL le 25/11 (−102,40 $), entré quelques heures avant le PCE et le PIB, juste après un discours ferme de Macklem. Ta règle : pas d'entrée moyenne juste avant une annonce majeure. Pas de nouvelle position avant d'avoir géré l'EURJPY."
+   "t": "Note de la France ce soir (S&P)",
+   "x": "Une dégradation pèserait sur l'euro à l'ouverture de lundi, ce qui irait dans le sens de ton EURJPY, mais avec un risque de gap dans les deux sens."
   },
   {
    "lvl": "med",
-   "t": "Risque d'intervention vers 160 sur l'USDJPY",
-   "x": "L'USDJPY reste collé à 159,15. Une intervention du Japon ferait chuter tous les croisements yen, ce qui irait dans le sens de ton EURJPY, mais avec des écarts de prix importants."
+   "t": "VIX toujours au-dessus de 25",
+   "x": "Le VIX recule vers 26,8 avec le rebond de vendredi, mais reste en zone de tension après un pic à 35,9 le 20/11. Garde des tailles réduites."
   },
   {
    "lvl": "med",
    "t": "Week-end chargé",
-   "x": "Élections NZ vendredi, OPEP+ et votations suisses dimanche, PIB canadien lundi : risque de gap à l'ouverture de lundi sur NZD, CAD et CHF."
+   "x": "OPEP+ et votations suisses dimanche, PIB canadien lundi, négociations de coalition en Nouvelle-Zélande : risque de gap lundi sur CAD, CHF et NZD."
+  },
+  {
+   "lvl": "med",
+   "t": "Risque d'intervention vers 160 sur l'USDJPY",
+   "x": "L'USDJPY évolue entre 159,1 et 159,6. Une intervention du Japon ferait chuter les croisements yen (favorable à ton EURJPY), avec des écarts de prix importants."
   },
   {
    "lvl": "med",
    "t": "Positionnement COT extrême sur NZD et AUD",
-   "x": "Rapport du 17/11 : NZD vendu à 82,3 % et AUD à 76,4 % par les fonds. Un retour du risque peut provoquer des rachats violents : évite de vendre ces devises au plus bas."
+   "x": "Rapport du 17/11 : NZD vendu à 82,3 % et AUD à 76,4 % par les fonds. L'australien a été la devise la plus forte vendredi : évite de le vendre au plus bas."
   }
  ],
  "calendar": [
@@ -936,6 +982,13 @@
    "imp": 2
   },
   {
+   "d": "2026-11-27",
+   "h": "",
+   "ccy": "EUR",
+   "ev": "Revue de la note de la France (S&P)",
+   "imp": 2
+  },
+  {
    "d": "2026-11-29",
    "h": "",
    "ccy": "CAD",
@@ -978,6 +1031,13 @@
    "imp": 2
   },
   {
+   "d": "2026-12-01",
+   "h": "",
+   "ccy": "USD",
+   "ev": "JOLTS",
+   "imp": 2
+  },
+  {
    "d": "2026-12-02",
    "h": "",
    "ccy": "CHF",
@@ -1003,6 +1063,20 @@
    "h": "",
    "ccy": "CAD",
    "ev": "Emploi",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-04",
+   "h": "",
+   "ccy": "USD",
+   "ev": "Emploi américain (NFP)",
+   "imp": 3
+  },
+  {
+   "d": "2026-12-04",
+   "h": "",
+   "ccy": "CAD",
+   "ev": "Emploi canadien",
    "imp": 3
   },
   {
@@ -1079,7 +1153,7 @@
   "Risque : 3★ = 0,3 % · 4★ = 0,5-0,7 % · 5★ = 1 %."
  ],
  "stocks": {
-  "context": "Après le rallye de lundi, les valeurs de l'IA rendent une partie des gains mardi et mercredi, alors que le reste de la cote résiste (Dow au-dessus de 50 000). Le PCE à 3,3 %, le PIB révisé à 4,3 % et les nouveaux droits de douane relancent la peur : Peur & Avidité à 9 en séance mercredi. Wall Street est fermée jeudi pour Thanksgiving.",
+  "context": "Wall Street termine la semaine de Thanksgiving sur un net rebond : le retour de Jensen Huang chez Nvidia a lancé un rallye lundi, l'IA a rechuté mardi et mercredi, puis les semi-conducteurs ont mené la reprise vendredi. Les droits de douane sur la Chine et le pétrole restent les principaux risques.",
   "criteria": [
    "Thèse en une phrase : pourquoi cette entreprise, pourquoi maintenant",
    "Croissance du chiffre d'affaires et des bénéfices",
@@ -1090,42 +1164,82 @@
    "Niveau technique d'entrée, stop et objectif"
   ],
   "market": {
-   "date": "Mer. 25/11 (clôture)",
+   "date": "Ven. 27/11 (clôture, séance raccourcie)",
    "idx": [
     {
      "n": "S&P 500",
-     "v": "7 182,78",
-     "c": -0.25,
-     "w": 3.9
+     "v": "7 304,78",
+     "c": 1.7,
+     "w": 5.7
     },
     {
      "n": "Nasdaq Composite",
-     "v": "23 585,80",
-     "c": -0.62,
-     "w": 4.3
+     "v": "24 129,50",
+     "c": 2.31,
+     "w": 6.7
     },
     {
      "n": "Dow Jones",
-     "v": "50 182,95",
-     "c": 0.33,
-     "w": 4.2
+     "v": "50 774,94",
+     "c": 1.18,
+     "w": 5.5
     },
     {
      "n": "VIX",
-     "v": "28,29",
-     "c": 7.32,
+     "v": "26,80",
+     "c": -5.3,
      "w": null
     }
    ],
    "notes": [
-    "Mardi 24/11 : le rebond de l'IA s'essouffle (Nasdaq −1,5 %, Nvidia −6 à −7 %), mais le Dow clôture au-dessus de 50 000 points pour la première fois.",
-    "Mercredi 25/11 : le S&P 500 chute jusqu'à −3,2 % en séance avant de presque tout effacer (−0,25 %) ; Nvidia −3,9 %, Amazon −3,1 %, HP +11,5 %.",
-    "Sur la semaine (lundi à mercredi) : S&P 500 +3,9 %, Nasdaq +4,3 %, Dow +4,2 %. Jeudi 26/11 : Wall Street fermée (Thanksgiving), séance courte vendredi."
+    "Vendredi 27/11 : rebond après Thanksgiving, mené par les semi-conducteurs ; séance close à 13h (heure de New York).",
+    "Semaine très agitée : rallye historique lundi (retour de Jensen Huang chez Nvidia), rechute de l'IA mardi et mercredi (S&P 500 jusqu'à −3,2 % en séance), puis rebond vendredi.",
+    "Variations sur la semaine calculées à partir des clôtures AP du 20/11. Risques à surveiller : droits de douane sur la Chine et pétrole (Brent vers 92 $)."
    ],
-   "src": "AP, Swingfolio, Capp Notes, portfolio-terminal"
+   "src": "Gate/ChainCatcher (clôtures), AP, Yahoo Finance, FRED"
   }
  },
  "news": [
+  {
+   "d": "27/11",
+   "src": "Yahoo Finance",
+   "t": "Stock market today: Dow, S&P 500, Nasdaq end holiday week with gains as AI stocks rebound",
+   "fr": "Les indices terminent la semaine de Thanksgiving en hausse, portés par le rebond des valeurs de l'IA ; clôture anticipée à 13h (heure de New York).",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
+   "tag": "Actions"
+  },
+  {
+   "d": "27/11",
+   "src": "BNN Bloomberg / AP",
+   "t": "Stocks rise and keep Wall Street on track to close out an erratic week with big gains",
+   "fr": "Hausse large vendredi : quatre actions sur cinq progressent et le S&P 500 vise sa meilleure semaine depuis longtemps.",
+   "url": "https://www.bnnbloomberg.ca/markets/2026/11/27/stocks-rise-and-keep-wall-street-on-track-to-close-out-an-erratic-week-with-big-gains/",
+   "tag": "Actions"
+  },
+  {
+   "d": "27/11",
+   "src": "24/7 Wall St.",
+   "t": "Stock Market Today: Markets Off to a Strong Black Friday Start",
+   "fr": "Les semi-conducteurs mènent le rebond ; les droits de douane sur la Chine (jusqu'à 40 %) et le Brent à 92 $ restent des risques.",
+   "url": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/",
+   "tag": "Actions"
+  },
+  {
+   "d": "27/11",
+   "src": "Swingfolio",
+   "t": "Nasdaq futures +2.21% as chips rebound on Black Friday",
+   "fr": "Avant l'ouverture : futures Nasdaq 100 +2,2 %, VIX vers 25,3 ; Vertex chute de 7,5 % sur un report de la FDA.",
+   "url": "https://swingfolio.com/daily/us/2026-11-27/morning",
+   "tag": "Actions"
+  },
+  {
+   "d": "27/11",
+   "src": "FRED",
+   "t": "CBOE Volatility Index: VIX (VIXCLS)",
+   "fr": "Dernière clôture publiée du VIX : 26,80, après 28,29 le 25/11.",
+   "url": "https://fred.stlouisfed.org/series/VIXCLS",
+   "tag": "Macro"
+  },
   {
    "d": "25/11",
    "src": "AP",
@@ -1245,46 +1359,6 @@
    "fr": "Le Nasdaq chute de 5,28 % et efface sa hausse de l'année ; le S&P 500 aligne sept baisses d'affilée.",
    "url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai",
    "tag": "Actions"
-  },
-  {
-   "d": "20/11",
-   "src": "AD HOC NEWS",
-   "t": "VIX jumps 26.20% to 35.89 as tech selloff intensifies",
-   "fr": "Le VIX clôture à 35,89 et touche 40 en séance, son plus haut depuis avril 2025.",
-   "url": "https://www.ad-hoc-news.de/boerse/news/marktberichte/vix-jumps-26-20-prozent-to-35-89-as-tech-selloff-intensifies-bloomberg-reports-late-session-touch/70541190",
-   "tag": "Volatilité"
-  },
-  {
-   "d": "20/11",
-   "src": "Crypto Briefing",
-   "t": "Fear & Greed Index falls to 14 as extreme fear grips markets",
-   "fr": "L'indice CNN passe en peur extrême, contre 37 une semaine plus tôt.",
-   "url": "https://cryptobriefing.com/fear-greed-index-falls-to-14-extreme-fear/",
-   "tag": "Sentiment"
-  },
-  {
-   "d": "20/11",
-   "src": "StockInvest",
-   "t": "S&P 500 enters correction and Nasdaq falls 5.3% as chip stocks slide",
-   "fr": "Le S&P 500 termine à plus de 10 % sous son record du 6 octobre ; Nvidia perd environ 14 %.",
-   "url": "https://stockinvest.us/digest/digest-us-market-close-2026-11-20",
-   "tag": "Actions"
-  },
-  {
-   "d": "20/11",
-   "src": "Yahoo Finance",
-   "t": "Nasdaq 100 ends worst week since 2020, S&P 500 in correction territory",
-   "fr": "Sur la semaine : S&P 500 −8,6 %, Nasdaq 100 −10,4 %, Dow −8 %.",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-ends-worst-week-013025833.html",
-   "tag": "Actions"
-  },
-  {
-   "d": "19/11",
-   "src": "MQL5 · Market Outlook",
-   "t": "USD/JPY rises to 159.80 and may test 160",
-   "fr": "Le dollar-yen remonte vers 160, zone où le risque d'intervention japonaise revient.",
-   "url": "https://www.mql5.com/en/blogs/post/781323",
-   "tag": "JPY"
   }
  ],
  "research": {
